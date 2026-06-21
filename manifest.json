@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Dragcave Egg Identifier",
+  "description": "Chrome extension to identify the eggs on dragcave.net.",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://dragcave.net/*"
+  ],
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "action": {
+    "default_title": "Dragcave",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "favicon.png",
+      "32": "favicon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dragcave.net/*"
+      ],
+      "js": [
+        "logic.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "inject.css",
+        "sprite.webp"
+      ],
+      "matches": [
+        "https://dragcave.net/*"
+      ]
+    }
+  ]
+}
