@@ -400,11 +400,11 @@ if (window.location.hostname === 'dragcave.net') {
       'You hear strange noises coming from inside this egg.': 'Howler Drake|06|16',
       'Your eyes struggle to completely focus on the light coming through this cloudy egg.': 'Halloween 2021<br/>Iridichi|07|16',
       'The markings on this cloudy egg glint like gossamer in the sun.': 'Holiday 2025<br/>Cardinal|15|18',
-      'This blood-red egg has a jelly-like texture.': 'Haimatos Dragon|16|18',
+      'This blood-red egg has a jelly-like texture.': 'Haimatos (Red)|16|18',
       'This creepy-looking egg looks distinctly like bone.': 'Asio Wyvern|17|18',
       'This tiny egg glints in the moonlight.': 'Papillune Pygmy|18|18',
       'This prismatic egg smolders slightly.': 'Prismanic Amphiptere|19|18',
-      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|20|18',
+      'This off-white egg has a hardened shell, but has a visible yolk inside.': 'Haimatos (White)|20|18',
       //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|01|19',
       //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|02|19',
       //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|03|19',
@@ -470,7 +470,7 @@ if (window.location.hostname === 'dragcave.net') {
     target.innerHTML = `
   <div class="egg-img" style="background-position: ${(parseInt(data[1]) - 1) * -50}px ${(parseInt(data[2]) - 1) * -50}px;"></div>
   <div class="egg-name">${data[0]}</div>
-  <div class="egg-desc">${dragText} <small>[c${data[1]}|r${data[2]}]</small></div>`;
+  <div class="egg-desc">${dragText} <small>[c${data[1]}r${data[2]}]</small></div>`;
   });
   // DRAGON RENAME HELP
   const pasteInput = document.querySelector(`input[name="type"]`);
