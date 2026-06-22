@@ -29,14 +29,15 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
 if (window.location.hostname === 'dragcave.net') {
   const injectPageStyles = () => {
     if (document.getElementById('dragcave-inject-css')) return;
+    const cacheBust = `${chrome.runtime.getManifest().version}-${Date.now()}`;
     const style = document.createElement('style');
     style.id = 'dragcave-inject-vars';
-    style.textContent = `:root { --dragcave-sprite: url('${chrome.runtime.getURL('sprite.webp')}'); }`;
+    style.textContent = `:root { --dragcave-sprite: url('${chrome.runtime.getURL('sprite.png')}?v=${cacheBust}'); }`;
     document.body.appendChild(style);
     const link = document.createElement('link');
     link.id = 'dragcave-inject-css';
     link.rel = 'stylesheet';
-    link.href = chrome.runtime.getURL('inject.css');
+    link.href = `${chrome.runtime.getURL('inject.css')}?v=${cacheBust}`;
     document.body.appendChild(link);
   };
   if (document.body) injectPageStyles();
@@ -398,13 +399,33 @@ if (window.location.hostname === 'dragcave.net') {
       'You hear a soft melody as you approach this egg.': 'Mistra|05|16',
       'You hear strange noises coming from inside this egg.': 'Howler Drake|06|16',
       'Your eyes struggle to completely focus on the light coming through this cloudy egg.': 'Halloween 2021<br/>Iridichi|07|16',
-      'The markings on this cloudy egg glint like gossamer in the sun.': 'Holiday 2025<br>XXXXXXXXX|15|18',
-      'Haimatos Dragon': 'This blood-red egg has a jelly-like texture.|16|18',
-      //"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX": "This creepy-looking egg looks distinctly like bone.|17|18",
-      //"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|18|18",
-      //"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|19|18",
-      //"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|20|18",
-    }, //"This egg has a rough, scaly surface.": "DONO|11|17", |--o--| FORMAT = NAME|COL+1|ROW+1
+      'The markings on this cloudy egg glint like gossamer in the sun.': 'Holiday 2025<br/>Cardinal|15|18',
+      'This blood-red egg has a jelly-like texture.': 'Haimatos Dragon|16|18',
+      'This creepy-looking egg looks distinctly like bone.': 'Asio Wyvern|17|18',
+      'This tiny egg glints in the moonlight.': 'Papillune Pygmy|18|18',
+      'This prismatic egg smolders slightly.': 'Prismanic Amphiptere|19|18',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|20|18',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|01|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|02|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|03|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|04|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|05|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|06|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|07|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|08|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|09|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|10|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|11|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|12|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|13|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|14|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|15|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|16|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|17|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|18|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|19|19',
+      //'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX|20|19',
+    }, //'This egg has a rough, scaly surface.': 'DONO|11|17', |--o--| FORMAT = NAME|COL+1|ROW+1
   };
   // EVENT EGG CLICKER
   const runEventClicker = isHalloweenOrEaster => {

@@ -1,42 +1,45 @@
 # Dragcave Egg Identifier
 
-This Chrome extension helps identify Dragcave eggs from a local dragon database.
+A lightweight Chrome extension designed to help players identify Dragcave eggs using an offline, local dragon database.
 
-It is designed to work only on https://dragcave.net/.
+> [!IMPORTANT]
+> This extension is designed to function exclusively on `dragcave.net`.
 
 ## How It Works
 
-- The extension stores dragon data in a JavaScript constant.
-- On location pages, it reads the egg description text shown under each egg.
-- It matches that description against the database and shows the best mapped result.
+- Local Database: The extension stores dragon egg data directly in a local JavaScript constant for fast, offline lookups.
+- DOM Parsing: When you visit location pages on Dragcave, the extension automatically reads the egg description text displayed under each egg.
+- Matching Algorithm: It compares the on-screen description against its local database to find and display the best matched egg sprite.
 
 ## Accuracy and Limitations
 
-- Identification is not 100% accurate.
-- Some different eggs can share the same description text.
-- When descriptions overlap, the extension can only return one mapped result and may be wrong.
+- Not 100% Accurate: Egg identification is based entirely on text matching and is subject to database limitations.
+- Shared Descriptions: Some distinct dragon species share identical egg descriptions.
+- Overlaps: In cases where descriptions overlap, the extension will only display one mapped result, which may occasionally be incorrect.
 
-## Important Disclaimer
+> [!WARNING]
+> ## Important Disclaimer
+> Use this extension at your own risk.
+> 
+> I take no responsibility for any infractions, warnings, penalties, or other administrative consequences you may face on Dragcave from using this tool. This extension was created primarily for personal use.
 
-Use this extension at your own risk.
+## Installation (Load in Chrome)
 
-I do not take any responsibility for any infraction, warning, penalty, or other consequences you may face from using this tool.
+To run this extension locally in developer mode, follow these steps:
 
-This extension was created mostly for my personal use.
-
-## Load in Chrome
-
-1. Open chrome://extensions.
-2. Enable Developer mode.
-3. Click Load unpacked.
-4. Select this folder: c:\Reactor\dragcave
-
-## License
-
-This project is licensed under the MIT License.
-See LICENSE for details.
+1. Download the Repository: Clone or download this repository to your local machine and extract the files.
+2. Open Extensions Page: Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable Developer Mode: Toggle the Developer mode switch in the top-right corner of the page.
+4. Load Unpacked Extension:
+5. Click the Load unpacked button in the top-left corner of the page.
+6. Select the root folder of this project, the folder containing `manifest.json`.
 
 ## Contributing
 
-Contributions are not accepted for this project.
-See CONTRIBUTING.md for details.
+Contributions are not accepted for this project at this time.
+
+Please refer to `CONTRIBUTING.md` for more details.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
