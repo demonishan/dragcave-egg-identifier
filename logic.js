@@ -15,7 +15,7 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
   });
   popupEventSelectorEl.addEventListener('change', () => {
     chrome.storage.local.set({ [EVENT_STORAGE_KEY]: popupEventSelectorEl.value });
-    popupMessageEl.textContent = 'Saved. Reload Dragcave tab to apply now.';
+    popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
   });
   const DISPLAY_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
   chrome.storage.local.get(DISPLAY_KEYS, stored => {
@@ -28,7 +28,7 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
     const el = document.getElementById(key);
     if (el) el.addEventListener('change', () => {
       chrome.storage.local.set({ [key]: el.checked });
-      popupMessageEl.textContent = 'Saved. Reload Dragcave tab to apply now.';
+      popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
     });
   }
   chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
@@ -80,20 +80,20 @@ if (window.location.hostname === 'dragcave.net') {
           prefs.element !== false && d.element?.length && `<tr><td>Elemental affinity</td><td>${val(d.element)}</td></tr>`,
           prefs.habitat !== false && d.habitat?.length && `<tr><td>Habitat(s)</td><td>${val(d.habitat)}</td></tr>`,
           prefs.morphology !== false && d.morphology && `<tr><td>Morphology</td><td>${d.morphology}</td></tr>`,
-          prefs.price !== false && d.price && `<tr><td>Market price</td><td>${d.price}</td></tr>`
+          prefs.price !== false && d.price && `<tr><td>Market price</td><td>${d.price}</td></tr>`,
+          `<tr><td>ID</td><td>c${d.col}r${d.row}</td></tr>`
         ].filter(Boolean);
         return `
           <div class="egg-img" style="background-position: ${(d.col - 1) * -50}px ${(d.row - 1) * -50}px;"></div>
           <div class="egg-name">${d.name}</div>
           ${meta.length ? `<table class="egg-meta">${meta.join(``)}</table>` : ``}
-          <div class="egg-id">Extension ID: c${d.col}r${d.row}</div>
         `;
       })
       .join(``);
     target.innerHTML = `
       ${cards}
       <div class="egg-desc">${dragText}</div>
-      <div class="cave-id">DragCave ID: ${dragonID}</div>
+      <div class="egg-id">DragCave ID: ${dragonID}</div>
     `;
   };
   // EVENT EGG CLICKER
@@ -147,7 +147,7 @@ if (window.location.hostname === 'dragcave.net') {
       target.classList.add(`sprite`);
       const dragText = eggDescription.innerHTML.trim();
       const dragons = dragLookup[dragText] || [];
-      const dragonID = target.getAttribute(`href`).split(`/`)[4];
+      const dragonID = target.getAttribute(`href`).split(`/`).at(-1);
       renderEggCard(target, dragText, dragons, dragonID, prefs);
     });
   };

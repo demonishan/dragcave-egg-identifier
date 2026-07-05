@@ -1,6 +1,6 @@
-# Dragcave Egg Identifier
+# DragCave Egg Identifier
 
-A lightweight Chrome extension designed to help players identify Dragcave eggs using an offline, local dragon database.
+A lightweight Chrome extension designed to help players identify DragCave eggs using an offline, local dragon database.
 
 > [!IMPORTANT]
 > This extension is designed to function exclusively on `dragcave.net`.
@@ -8,7 +8,7 @@ A lightweight Chrome extension designed to help players identify Dragcave eggs u
 ## How It Works
 
 - Local Database: The extension stores dragon egg data directly in a local JavaScript constant for fast, offline lookups.
-- DOM Parsing: When you visit location pages on Dragcave, the extension automatically reads the egg description text displayed under each egg.
+- DOM Parsing: When you visit location pages on DragCave, the extension automatically reads the egg description text displayed under each egg.
 - Matching Algorithm: It compares the on-screen description against its local database to find and display the best matched egg sprite.
 
 ## Accuracy and Limitations
@@ -21,7 +21,7 @@ A lightweight Chrome extension designed to help players identify Dragcave eggs u
 > ## Important Disclaimer
 > Use this extension at your own risk.
 > 
-> I take no responsibility for any infractions, warnings, penalties, or other administrative consequences you may face on Dragcave from using this tool. This extension was created primarily for personal use.
+> I take no responsibility for any infractions, warnings, penalties, or other administrative consequences you may face on DragCave from using this tool. This extension was created primarily for personal use.
 
 ## Installation (Load in Chrome)
 
