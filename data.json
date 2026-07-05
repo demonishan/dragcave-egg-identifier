@@ -1,0 +1,4632 @@
+{
+  "This egg has a rough, scaly surface.": [
+    {
+      "name": "Aardrakes",
+      "col": 11,
+      "row": 17,
+      "release": "April 27, 2025",
+      "element": ["Earth"],
+      "habitat": ["Desert"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "It’s almost like time is distorted around this egg.": [
+    {
+      "name": "Aeon Wyvern",
+      "col": 10,
+      "row": 2,
+      "release": "August 21, 2016",
+      "element": ["Time"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "1,500 - 2,000 shards"
+    }
+  ],
+  "This crystalline egg almost looks like you could reach into its depths.": [
+    {
+      "name": "Aeria Gloris",
+      "col": 19,
+      "row": 3,
+      "release": "May 21, 2019",
+      "element": ["Magi", "Lightning"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "Wind gusts around this egg.": [
+    {
+      "name": "Aether Wyvern",
+      "col": 19,
+      "row": 15,
+      "release": "September 30, 2018",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "You can see the baby dragon curled up inside this translucent egg.": [
+    {
+      "name": "Albino",
+      "col": 3,
+      "row": 16,
+      "release": "July 15, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Forest", "Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "The brilliant blue spots on this egg stand out.": [
+    {
+      "name": "Alcedine Wyvern",
+      "col": 3,
+      "row": 3,
+      "release": "May 21, 2020",
+      "element": ["Air"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This dull mottled egg blends into the surrounding algae.": [
+    {
+      "name": "Algarre",
+      "col": 8,
+      "row": 4,
+      "release": "March 19, 2023",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This glossy green egg is rather warm.": [
+    {
+      "name": "Almerald",
+      "col": 17,
+      "row": 11,
+      "release": "August 21, 2016",
+      "element": ["Light"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Eastern)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "This egg sits on a pile of soft, golden fur.": [
+    {
+      "name": "Aluria",
+      "col": 5,
+      "row": 17,
+      "release": "March 30, 2025",
+      "element": ["Air"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This pristine egg sits in a clear pool of water.": [
+    {
+      "name": "Amalthean",
+      "col": 2,
+      "row": 13,
+      "release": "May 21, 2020",
+      "element": ["Life", "Water"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This delicately patterned egg is sitting in the sunshine.": [
+    {
+      "name": "Anagallis",
+      "col": 3,
+      "row": 4,
+      "release": "April 26, 2015",
+      "element": ["Neutral"],
+      "habitat": ["Desert", "Forest", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is surrounded by mysterious, reflective dust.": [
+    {
+      "name": "Antarean",
+      "col": 6,
+      "row": 9,
+      "release": "March 19, 2016",
+      "element": ["Light", "Fire"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This drab egg rests far from the water’s edge.": [
+    {
+      "name": "Aqualis",
+      "col": 6,
+      "row": 4,
+      "release": "March 10, 2019",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "The vibrant scales on this egg glisten in the sunlight.": [
+    {
+      "name": "Aranoa",
+      "col": 9,
+      "row": 3,
+      "release": "December 1, 2019",
+      "element": ["Water"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This beautifully patterned egg was buried close to shore.": [
+    {
+      "name": "Archelonian",
+      "col": 9,
+      "row": 16,
+      "release": "May 21, 2024",
+      "element": ["Water", "Death"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This bright egg has a warm shell.": [
+    {
+      "name": "Aria",
+      "col": 13,
+      "row": 3,
+      "release": "May 21, 2016",
+      "element": ["Neutral", "Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western), Dragon (Western)",
+      "price": "100 shards, N/A"
+    }
+  ],
+  "A low hum emanates from this rough egg.": [
+    {
+      "name": "Arrakyma",
+      "col": 5,
+      "row": 1,
+      "release": "May 21, 2023",
+      "element": ["Earth", "Death"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "This ashen egg is smooth to the touch.": [
+    {
+      "name": "Ash",
+      "col": 11,
+      "row": 3,
+      "release": "August 26, 2018",
+      "element": ["Earth"],
+      "habitat": ["Forest", "Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This creepy-looking egg looks distinctly like bone.": [
+    {
+      "name": "Asio Wyvern",
+      "col": 17,
+      "row": 18,
+      "release": "March 29, 2026",
+      "element": ["Air"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This resplendent egg emanates a constantly shifting aura.": [
+    {
+      "name": "Aspect of Form",
+      "col": 3,
+      "row": 19,
+      "release": "May 21, 2026",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This radiant egg emanates a magical aura.": [
+    {
+      "name": "Aspect of Mana",
+      "col": 4,
+      "row": 19,
+      "release": "May 21, 2026",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This warm egg emanates an otherworldly aura.": [
+    {
+      "name": "Aspect of Soul",
+      "col": 5,
+      "row": 19,
+      "release": "May 21, 2026",
+      "element": ["Death", "Life"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This egg reminds you of the night sky.": [
+    {
+      "name": "Astaarus",
+      "col": 7,
+      "row": 10,
+      "release": "August 23, 2020",
+      "element": ["Light", "Fire"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "Delicate petals envelop this egg.": [
+    {
+      "name": "Astrael",
+      "col": 1,
+      "row": 2,
+      "release": "July 30, 2023",
+      "element": ["Earth", "Life"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This pleasant egg was placed in the path of a refreshing breeze.": [
+    {
+      "name": "Astralophyne",
+      "col": 1,
+      "row": 13,
+      "release": "May 21, 2022",
+      "element": ["Life", "Light"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is large and ornate.": [
+    {
+      "name": "Avarice",
+      "col": 1,
+      "row": 19
+    }
+  ],
+  "This iridescent egg radiates mysterious energy.": [
+    {
+      "name": "Avatar of Change",
+      "col": 5,
+      "row": 12,
+      "release": "May 21, 2014",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This shimmering egg radiates primordial energy.": [
+    {
+      "name": "Avatar of Creation",
+      "col": 11,
+      "row": 13,
+      "release": "May 21, 2014",
+      "element": ["Light"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This smoldering egg radiates volatile energy.": [
+    {
+      "name": "Avatar of Destruction",
+      "col": 19,
+      "row": 13,
+      "release": "May 21, 2014",
+      "element": ["Dark"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This tiny egg is rather light.": [
+    {
+      "name": "Avea Pygmy",
+      "col": 19,
+      "row": 14,
+      "release": "June 30, 2019",
+      "element": ["Air"],
+      "habitat": ["All"],
+      "morphology": "Pygmy Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny white egg shakes sometimes.": [
+    {
+      "name": "Avin Pygmy",
+      "col": 5,
+      "row": 15,
+      "release": "March 28, 2022",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Pygmy dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This large egg has a lustrous sheen and appears to be covered in scales.": [
+    {
+      "name": "Azure Glacewing",
+      "col": 6,
+      "row": 12,
+      "release": "November 26, 2016",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "300 - 400 shards"
+    }
+  ],
+  "This heavy egg has a soft, yielding shell.": [
+    {
+      "name": "Baikala",
+      "col": 1,
+      "row": 12,
+      "release": "July 17, 2017",
+      "element": ["Water"],
+      "habitat": ["Forest", "Jungle", "Coast"],
+      "morphology": "Two-headed Dragon (Leviathan)",
+      "price": "500 - 700 shards"
+    }
+  ],
+  "This light egg is floating in the air.": [
+    {
+      "name": "Balloon",
+      "col": 9,
+      "row": 12,
+      "release": "April 22, 2009",
+      "element": ["Air"],
+      "habitat": ["Coast", "Forest", "Jungle", "Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "300 - 500 shards"
+    }
+  ],
+  "This egg has raised golden ridges.": [
+    {
+      "name": "Bauta",
+      "col": 16,
+      "row": 6,
+      "release": "September 30, 2017",
+      "element": ["None"],
+      "habitat": ["Coast"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "400 - 600 shards"
+    }
+  ],
+  "Two thin stripes crisscross the shell of this egg.": [
+    {
+      "name": "Berry Drake",
+      "col": 13,
+      "row": 15,
+      "release": "September 25, 2022",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has a faint green glow around it.": [
+    {
+      "name": "Black",
+      "col": 15,
+      "row": 5,
+      "release": "May 21, 2006 (Original breed)",
+      "element": ["Dark"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg has a black cap.": [
+    {
+      "name": "Black Capped Teimarr",
+      "col": 12,
+      "row": 5,
+      "release": "May 22, 2013",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg has a faintly exotic scent.": [
+    {
+      "name": "Black Tea",
+      "col": 16,
+      "row": 5,
+      "release": "May 24, 2013",
+      "element": ["Life"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has a pleasant, musky smell.": [
+    {
+      "name": "Black Truffle",
+      "col": 18,
+      "row": 5,
+      "release": "July 1, 2018",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "600 - 900 shards"
+    }
+  ],
+  "This egg is off-white in color and smells a bit like salt.": [
+    {
+      "name": "Blacktip",
+      "col": 4,
+      "row": 8,
+      "release": "May 27, 2013",
+      "element": ["Air"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is dark with light speckles...or maybe it’s light with dark speckles?": [
+    {
+      "name": "Blancblack",
+      "col": 16,
+      "row": 7,
+      "release": "March 10, 2019",
+      "element": ["Light", "Dark"],
+      "habitat": ["Desert", "Forest", "Volcano"],
+      "morphology": "Two-headed dragon (Eastern)",
+      "price": "400 - 800 shards"
+    }
+  ],
+  "This egg has a dull metallic luster and is hot to the touch.": [
+    {
+      "name": "Blazeback",
+      "col": 14,
+      "row": 5,
+      "release": "March 28, 2021",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg shines brilliantly in moonlight, and is covered in red spots.": [
+    {
+      "name": "Bleeding Moon",
+      "col": 19,
+      "row": 10,
+      "release": "July 7, 2013",
+      "element": ["Dark"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg looks like it doesn’t belong; it is brightly colored with white spots. It’s much lighter than the other eggs.": [
+    {
+      "name": "Blue Dino",
+      "col": 1,
+      "row": 10,
+      "release": "May 21, 2006 (Original breed)",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon",
+      "price": "1,900 - 3,800 shards"
+    },
+    {
+      "name": "Purple Dino",
+      "col": 14,
+      "row": 20,
+      "release": "July 15, 2009",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon",
+      "price": "1,900 - 3,700 shards"
+    }
+  ],
+  "This egg is covered in thick blue stripes.": [
+    {
+      "name": "Blue-Banded",
+      "col": 13,
+      "row": 7,
+      "release": "July 5, 2014",
+      "element": ["Water"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg smells faintly like brine.": [
+    {
+      "name": "Blusang Lindwyrm",
+      "col": 4,
+      "row": 11,
+      "release": "August 15, 2012",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "1,000 - 1,400 shards"
+    }
+  ],
+  "This egg has a striking pattern.": [
+    {
+      "name": "Bolt",
+      "col": 2,
+      "row": 6,
+      "release": "July 10, 2016",
+      "element": ["Lightning"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is covered in pale blue spots.": [
+    {
+      "name": "Boreal",
+      "col": 11,
+      "row": 7,
+      "release": "August 26, 2018",
+      "element": ["Ice"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is covered in speckles.": [
+    {
+      "name": "Bright-Breasted Wyvern",
+      "col": 12,
+      "row": 7,
+      "release": "April 1, 2010",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg smells rather rancid.": [
+    {
+      "name": "Brimstone",
+      "col": 9,
+      "row": 11,
+      "release": "August 15, 2012",
+      "element": ["Fire"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg’s glittering shell sometimes gets lost in fog.": [
+    {
+      "name": "Brumous",
+      "col": 9,
+      "row": 17,
+      "release": "July 28, 2024",
+      "element": ["Light", "Ice"],
+      "habitat": ["Alpine", "Desert", "Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is unusually large and heavy.": [
+    {
+      "name": "Brute",
+      "col": 9,
+      "row": 9,
+      "release": "March 2, 2014",
+      "element": ["Death"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This iridescent egg radiates the warmth of the sun.": [
+    {
+      "name": "Caihong",
+      "col": 13,
+      "row": 16,
+      "release": "May 21, 2024",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "100 shards"
+    }
+  ],
+  "This mottled red egg almost glows from within.": [
+    {
+      "name": "Candelabra",
+      "col": 17,
+      "row": 12,
+      "release": "May 21, 2016",
+      "element": ["Light"],
+      "habitat": ["Jungle", "Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg is hidden by some leaves.": [
+    {
+      "name": "Canopy",
+      "col": 1,
+      "row": 8,
+      "release": "January 15, 2010",
+      "element": ["Life"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Something about this egg seems to lure you in.": [
+    {
+      "name": "Cantormaris",
+      "col": 18,
+      "row": 2,
+      "release": "January 24, 2021, May 21, 2021 (Motus and Tutela)",
+      "element": ["Water", "Magi"],
+      "habitat": ["Coast", "Volcano", "Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 400 shards"
+    }
+  ],
+  "This egg shimmers with dazzling constellations.": [
+    {
+      "name": "Carina",
+      "col": 17,
+      "row": 10,
+      "release": "August 28, 2017",
+      "element": ["Fire"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This pink and red egg wobbles occasionally.": [
+    {
+      "name": "Carmine Wyvern",
+      "col": 19,
+      "row": 12,
+      "release": "July 5, 2014",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg makes you feel a bit uneasy.": [
+    {
+      "name": "Cassare",
+      "col": 4,
+      "row": 10,
+      "release": "July 5, 2014",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This translucent egg shines like starlight.": [
+    {
+      "name": "Celestial",
+      "col": 8,
+      "row": 15,
+      "release": "April 1, 2016",
+      "element": ["Magi"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "This egg’s slick shell is covered in lustrous, vibrant scales.": [
+    {
+      "name": "Ceriuth",
+      "col": 13,
+      "row": 11,
+      "release": "August 28, 2022",
+      "element": ["Water"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is covered in black and white stripes.": [
+    {
+      "name": "Chaliuba",
+      "col": 10,
+      "row": 16,
+      "release": "May 21, 2024",
+      "element": ["Neutral"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is soft and smells uncannily like cheese.": [
+    {
+      "name": "Cheese",
+      "col": 18,
+      "row": 8,
+      "release": "July 15, 2009",
+      "element": ["None"],
+      "habitat": ["All"],
+      "morphology": "Enchanted construct (Western)",
+      "price": "1,800 - 3,000 shards"
+    }
+  ],
+  "This egg is much smaller than the others.": [
+    {
+      "name": "Chicken",
+      "col": 3,
+      "row": 8,
+      "release": "June 2, 2007",
+      "element": ["None"],
+      "habitat": ["All"],
+      "morphology": "Chicken",
+      "price": "2,700 - 4,700 shards"
+    }
+  ],
+  "This opalescent egg shimmers in the moonlight.": [
+    {
+      "name": "Ciriax Lindwyrm",
+      "col": 18,
+      "row": 12,
+      "release": "August 4, 2013",
+      "element": ["Dark"],
+      "habitat": ["Forest", "Alpine"],
+      "morphology": "Two-headed dragon (Lindwyrm)",
+      "price": "500 - 800 shards"
+    }
+  ],
+  "This soft egg is carefully nestled in feathers and snow.": [
+    {
+      "name": "Cloudplume",
+      "col": 3,
+      "row": 14,
+      "release": "May 21, 2020",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg reminds you of the sea.": [
+    {
+      "name": "Coastal Waverunner",
+      "col": 8,
+      "row": 10,
+      "release": "July 4, 2010",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is so tiny you almost didn’t see it.": [
+    {
+      "name": "Common Pygmy",
+      "col": 17,
+      "row": 8,
+      "release": "July 15, 2009",
+      "element": ["None"],
+      "habitat": ["Forest", "Jungle", "Alpine"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg gleams with a reddish shine.": [
+    {
+      "name": "Copper",
+      "col": 4,
+      "row": 5,
+      "release": "May 26, 2013, May 21, 2021 (Pennybright variant)",
+      "element": ["Earth"],
+      "habitat": ["Desert", "Volcano", "Alpine", "Forest", "Coast", "Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "1,100 - 1,600 shards"
+    }
+  ],
+  "This tiny egg is striped and feels coarse.": [
+    {
+      "name": "Coral Pygmy Wyvern",
+      "col": 20,
+      "row": 14,
+      "release": "September 1, 2019",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is carefully nestled away in soft grasses and feathers.": [
+    {
+      "name": "Crested Amphiptere",
+      "col": 2,
+      "row": 18,
+      "release": "June 29, 2025",
+      "element": ["Air"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is tiny and brightly colored.": [
+    {
+      "name": "Crimson Flare Pygmy",
+      "col": 7,
+      "row": 9,
+      "release": "May 21, 2011",
+      "element": ["None"],
+      "habitat": ["Volcano"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This icy egg sparkles with frost.": [
+    {
+      "name": "Crystalline",
+      "col": 4,
+      "row": 12,
+      "release": "March 22, 2020",
+      "element": ["Ice"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is sitting in a patch of grass and small flowers even though there’s no sun in the cave.": [
+    {
+      "name": "Dark Green",
+      "col": 9,
+      "row": 8,
+      "release": "June, 2006",
+      "element": ["Dark", "Life"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Dragon (Wingless)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg shines coldly in the moonlight.": [
+    {
+      "name": "Dark Lumina",
+      "col": 20,
+      "row": 10,
+      "release": "August 21, 2016",
+      "element": ["Dark"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is sitting on a cloud.": [
+    {
+      "name": "Daydream",
+      "col": 13,
+      "row": 8,
+      "release": "April 22, 2009",
+      "element": ["Air"],
+      "habitat": ["Coast", "Forest", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg appears to be covered in scales.": [
+    {
+      "name": "Deep Sea",
+      "col": 10,
+      "row": 4,
+      "release": "August 26, 2009",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Shallow Water",
+      "col": 8,
+      "row": 19,
+      "release": "May 26, 2010",
+      "element": ["Water"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "N/A"
+    }
+  ],
+  "This speckled egg has deep blue spots.": [
+    {
+      "name": "Delta",
+      "col": 14,
+      "row": 16,
+      "release": "March 24, 2024",
+      "element": ["Magi"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg shines like a diamond.": [
+    {
+      "name": "Diamondwing",
+      "col": 2,
+      "row": 11,
+      "release": "September 25, 2016",
+      "element": ["Earth"],
+      "habitat": ["Alpine", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg has multiple bands of color on it.": [
+    {
+      "name": "Dorsal",
+      "col": 15,
+      "row": 6,
+      "release": "April 22, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg can’t seem to make up its mind what color it is.": [
+    {
+      "name": "Duotone",
+      "col": 13,
+      "row": 4,
+      "release": "August 4, 2013",
+      "element": ["None"],
+      "habitat": ["All"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This tiny egg is cold to the touch.": [
+    {
+      "name": "Dusk Pygmy",
+      "col": 16,
+      "row": 14,
+      "release": "June 25, 2017",
+      "element": ["None"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Bright sparks glide across the surface of this egg’s shell.": [
+    {
+      "name": "Electric",
+      "col": 14,
+      "row": 1,
+      "release": "January 15, 2010",
+      "element": ["Lightning"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Starlight shimmers across this egg’s iridescent shell.": [
+    {
+      "name": "Elux Lucis",
+      "col": 1,
+      "row": 3,
+      "release": "July 26, 2020",
+      "element": ["Light", "Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This egg is really hot.": [
+    {
+      "name": "Ember",
+      "col": 7,
+      "row": 8,
+      "release": "October 10, 2010",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg shakes slightly when taken out of the light.": [
+    {
+      "name": "Equinox",
+      "col": 15,
+      "row": 10,
+      "release": "September 22, 2020",
+      "element": ["Light", "Time"],
+      "habitat": ["Forest", "Volcano", "Jungle", "Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Cold flames dance across the surface of this egg.": [
+    {
+      "name": "Falconiform Wyvern",
+      "col": 15,
+      "row": 1,
+      "release": "May 3, 2014",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This scaled egg is surrounded by the others.": [
+    {
+      "name": "False-Headed Hydra",
+      "col": 7,
+      "row": 13,
+      "release": "July 3, 2022",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Two-headed dragon (Wyrm)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This egg has delicate markings that curl around its shell.": [
+    {
+      "name": "Fanalea",
+      "col": 12,
+      "row": 6,
+      "release": "May 21, 2022",
+      "element": ["Life"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This mottled egg looks positively ancient.": [
+    {
+      "name": "Fell",
+      "col": 16,
+      "row": 12,
+      "release": "November 26, 2016",
+      "element": ["Death"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wingless)",
+      "price": "300 - 500 shards"
+    }
+  ],
+  "This egg is patterned with an orange flare.": [
+    {
+      "name": "Fever Wyvern",
+      "col": 5,
+      "row": 8,
+      "release": "March 2, 2014",
+      "element": ["Death"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This rough egg has shimmering veins of crystal running across its surface.": [
+    {
+      "name": "Fire Gem",
+      "col": 6,
+      "row": 13,
+      "release": "March 19, 2017",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "800 - 1,000 shards"
+    }
+  ],
+  "This egg has a fiery pattern.": [
+    {
+      "name": "Flameback",
+      "col": 18,
+      "row": 17,
+      "release": "July 27, 2025",
+      "element": ["Fire", "Air"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "Crystals are growing around the shell of this little egg.": [
+    {
+      "name": "Flare-Tail Pygmy",
+      "col": 19,
+      "row": 1,
+      "release": "May 21, 2023",
+      "element": ["Light", "Dark"],
+      "habitat": ["Alpine"],
+      "morphology": "Pygmy dragon (Eastern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This heavy egg has a distinct scorched smell.": [
+    {
+      "name": "Flint Drake",
+      "col": 19,
+      "row": 16,
+      "release": "June 30, 2024",
+      "element": ["Earth", "Fire"],
+      "habitat": ["Coast", "Volcano"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "This shiny egg smells faintly like flowers.": [
+    {
+      "name": "Floret Wyvern (Alstroemeria)",
+      "col": 16,
+      "row": 13,
+      "release": "August 28, 2010",
+      "element": ["Earth"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Floret Wyvern (Iris)",
+      "release": "March 25, 2018",
+      "element": ["Life"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "500 - 700 shards"
+    }
+  ],
+  "This egg is yellow with orange speckling.": [
+    {
+      "name": "Freckled",
+      "col": 17,
+      "row": 9,
+      "release": "March 25, 2018",
+      "element": ["Neutral"],
+      "habitat": ["Desert", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has strange markings on it.": [
+    {
+      "name": "Frilled",
+      "col": 19,
+      "row": 6,
+      "release": "February 10, 2009 (Original release), May 21, 2016 (Reintroduced)",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Skywing",
+      "col": 17,
+      "row": 19,
+      "release": "July 12, 2008",
+      "element": ["Air"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Ochredrake",
+      "col": 18,
+      "row": 19,
+      "release": "July 15, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    },
+    {
+      "name": "Horse",
+      "col": 19,
+      "row": 19,
+      "release": "August 24, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Frost is creeping over this cold egg.": [
+    {
+      "name": "Frostbite",
+      "col": 4,
+      "row": 2,
+      "release": "May 3, 2014",
+      "element": ["Ice"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Grabbing this tiny egg makes you feel reckless.": [
+    {
+      "name": "Furor Pygmy",
+      "col": 5,
+      "row": 2,
+      "release": "May 21, 2022",
+      "element": ["None"],
+      "habitat": ["Desert"],
+      "morphology": "Pygmy dragon (Wingless)",
+      "price": "100 shards"
+    }
+  ],
+  "Powerful energy emanates from this egg.": [
+    {
+      "name": "Galvanic Wyvern",
+      "col": 14,
+      "row": 2,
+      "release": "May 21, 2019",
+      "element": ["Dark", "Lightning"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 - 600 shards"
+    }
+  ],
+  "This shiny egg gives you a headache when you get close.": [
+    {
+      "name": "Geminae",
+      "col": 14,
+      "row": 13,
+      "release": "May 21, 2019",
+      "element": ["Magi"],
+      "habitat": ["Desert"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "This egg is encrusted with colorful gemstones.": [
+    {
+      "name": "Gemshard",
+      "col": 17,
+      "row": 7,
+      "release": "March 28, 2015May 21, 2021 (Amethyst, Aqua, Citrine)",
+      "element": ["Air"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This egg is heavy and rough, as if it were made out of rock.": [
+    {
+      "name": "Geode",
+      "col": 19,
+      "row": 7,
+      "release": "February 10, 2009",
+      "element": ["Earth"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    },
+    {
+      "name": "Stone",
+      "col": 6,
+      "row": 19,
+      "release": "October 5, 2007",
+      "element": ["Earth"],
+      "habitat": ["Desert", "Alpine", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has spots that glow brightly when touched.": [
+    {
+      "name": "Ghanser",
+      "col": 18,
+      "row": 6,
+      "release": "April 24, 2022",
+      "element": ["Time"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Two-headed dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg glitters oddly in the light.": [
+    {
+      "name": "Gilded Bloodscale",
+      "col": 5,
+      "row": 5,
+      "release": "May 23, 2013",
+      "element": ["None"],
+      "habitat": ["Volcano"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "700 - 1,100 shards"
+    }
+  ],
+  "This striped egg feels moist.": [
+    {
+      "name": "Glaucus Drake",
+      "col": 4,
+      "row": 14,
+      "release": "April 6, 2014",
+      "element": ["None"],
+      "habitat": ["Coast"],
+      "morphology": "Drake",
+      "price": "100 shards"
+    }
+  ],
+  "This tiny egg is cold and clammy.": [
+    {
+      "name": "Gloomstalker Pygmy",
+      "col": 4,
+      "row": 18,
+      "release": "May 21, 2025",
+      "element": ["Death"],
+      "habitat": ["Jungle"],
+      "morphology": "Pygmy Dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny egg gives off a colorful glow.": [
+    {
+      "name": "Glowback Pygmy",
+      "col": 13,
+      "row": 14,
+      "release": "July 21, 2019",
+      "element": ["Light"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg is very reflective, almost metallic-looking.": [
+    {
+      "name": "Gold",
+      "col": 12,
+      "row": 9,
+      "release": "June 2, 2007 (Original breed)",
+      "element": ["Earth"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "1,900 - 3,400 shards"
+    }
+  ],
+  "This egg has bright orange and green markings.": [
+    {
+      "name": "Gold-Horned Tangar",
+      "col": 9,
+      "row": 6,
+      "release": "September 17, 2011",
+      "element": ["Life"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg shimmers like gold.": [
+    {
+      "name": "Golden Wyvern",
+      "col": 16,
+      "row": 10,
+      "release": "January 23, 2012",
+      "element": ["Magi"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "1,200 - 1,800 shards"
+    }
+  ],
+  "This egg is speckled with rosette-like markings.": [
+    {
+      "name": "Greater Spotted Drake",
+      "col": 20,
+      "row": 8,
+      "release": "May 21, 2015",
+      "element": ["None"],
+      "habitat": ["Forest"],
+      "morphology": "Drake",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is sitting in a pile of small pebbles.": [
+    {
+      "name": "Green",
+      "col": 10,
+      "row": 8,
+      "release": "May 21, 2006",
+      "element": ["Earth"],
+      "habitat": ["Forest", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg looks like it doesn’t belong; it is brightly colored with white spots.": [
+    {
+      "name": "Green Dino",
+      "col": 3,
+      "row": 10,
+      "release": "May 21, 2006",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon",
+      "price": "1,500 - 3,100 shards"
+    }
+  ],
+  "This egg is sitting in front of the others.": [
+    {
+      "name": "Guardian",
+      "col": 12,
+      "row": 8,
+      "release": "August 30, 2008",
+      "element": ["Light", "Neutral"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg glows mysteriously.": [
+    {
+      "name": "Guardian of Nature",
+      "col": 7,
+      "row": 5,
+      "release": "March 26, 2010",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Must be Summoned)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This blood-red egg has a jelly-like texture.": [
+    {
+      "name": "Haimatos Erythro",
+      "col": 16,
+      "row": 18,
+      "release": "April 26, 2026",
+      "element": ["Life", "Water"],
+      "habitat": ["Coast", "Forest"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "This off-white egg has a hardened shell, but has a visible yolk inside.": [
+    {
+      "name": "Haimatos Leuco",
+      "col": 20,
+      "row": 18,
+      "release": "April 26, 2026",
+      "element": ["Life", "Water"],
+      "habitat": ["Coast", "Forest"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is stone cold and smells rotten.": [
+    {
+      "name": "Halloween 2008<br/>Vampire Dragon",
+      "col": 2,
+      "row": 9,
+      "release": "October 31, 2008",
+      "element": ["Death"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg smells like the autumn harvest.": [
+    {
+      "name": "Halloween 2009<br/>Pumpkin Dragon",
+      "col": 6,
+      "row": 11,
+      "release": "October 31, 2009",
+      "element": ["None"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Pygmy (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is covered in a dark crust.": [
+    {
+      "name": "Halloween 2010<br/>Black Marrow",
+      "col": 8,
+      "row": 7,
+      "release": "October 31, 2010",
+      "element": ["Death"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg fades into the shadows.": [
+    {
+      "name": "Halloween 2011<br/>Shadow Walker",
+      "col": 19,
+      "row": 4,
+      "release": "October 31, 2011",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is wedged in a dark corner.": [
+    {
+      "name": "Halloween 2012<br/>Cavern Lurker",
+      "col": 15,
+      "row": 9,
+      "release": "November 3, 2012",
+      "element": ["Dark"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg appears to have an evil grin.": [
+    {
+      "name": "Halloween 2013<br/>Grave",
+      "col": 12,
+      "row": 4,
+      "release": "October 31, 2013",
+      "element": ["Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Being near this egg makes it hard to think clearly.": [
+    {
+      "name": "Halloween 2014<br/>Desipis",
+      "col": 13,
+      "row": 1,
+      "release": "October 31, 2014",
+      "element": ["Dark", "Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "The pattern on this egg’s shell is unsettling.": [
+    {
+      "name": "Halloween 2015<br/>Caligene",
+      "col": 7,
+      "row": 3,
+      "release": "October 31, 2015",
+      "element": ["Death"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This downy egg is hidden in brambles.": [
+    {
+      "name": "Halloween 2016<br/>Witchlight",
+      "col": 5,
+      "row": 4,
+      "release": "October 31, 2016",
+      "element": ["Dark", "Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This warm egg is tangled in the roots of a dead tree.": [
+    {
+      "name": "Halloween 2017<br/>Omen Wyrm",
+      "col": 11,
+      "row": 15,
+      "release": "October 31, 2017",
+      "element": ["Fire", "Dark"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has reflective spots that remind you of gems, or eyes.": [
+    {
+      "name": "Halloween 2018<br/>Arcana",
+      "col": 17,
+      "row": 6,
+      "release": "October 31, 2018",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "A fine mist rolls over this cool, scaly egg.": [
+    {
+      "name": "Halloween 2019<br/>Kohraki",
+      "col": 4,
+      "row": 1,
+      "release": "October 31, 2019",
+      "element": ["Air", "Dark"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "N/A"
+    }
+  ],
+  "Dead leaves obscure this egg’s scratched shell.": [
+    {
+      "name": "Halloween 2020<br/>Pitfire",
+      "col": 20,
+      "row": 1,
+      "release": "October 31, 2020",
+      "element": ["Death"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Your eyes struggle to completely focus on the light coming through this cloudy egg.": [
+    {
+      "name": "Halloween 2021<br/>Iridichi",
+      "col": 7,
+      "row": 16,
+      "release": "October 31, 2021",
+      "element": ["Death", "Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "N/A"
+    }
+  ],
+  "This cool, weathered egg is a heavy burden to bear.": [
+    {
+      "name": "Halloween 2022<br/>Crypt",
+      "col": 18,
+      "row": 3,
+      "release": "October 31, 2022",
+      "element": ["Death", "Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Two-headed dragon (Wingless)",
+      "price": "N/A"
+    }
+  ],
+  "Soft bioluminescence shifts over the surface of this dark egg.": [
+    {
+      "name": "Halloween 2023<br/>Abyss Watcher",
+      "col": 16,
+      "row": 2,
+      "release": "October 31, 2023",
+      "element": ["Water"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "N/A"
+    }
+  ],
+  "You feel the weight of gravity grow heavier as you are pulled toward this molten egg.": [
+    {
+      "name": "Halloween 2024<br/>Quantari",
+      "col": 20,
+      "row": 16,
+      "release": "October 31, 2024",
+      "element": ["Dark"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wingless)",
+      "price": "N/A"
+    }
+  ],
+  "This egg’s shell is sweet and soft.": [
+    {
+      "name": "Halloween 2025<br/>Gummy Wyrm",
+      "col": 13,
+      "row": 17,
+      "release": "October 31, 2025",
+      "element": ["Life", "Earth"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Pygmy Dragon (Wyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This heavy egg feels slightly warm.": [
+    {
+      "name": "Harvest",
+      "col": 20,
+      "row": 11,
+      "release": "October 10, 2010",
+      "element": ["Earth"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 900 shards"
+    }
+  ],
+  "This egg radiates the heat of a fell flame.": [
+    {
+      "name": "Hellfire Wyvern",
+      "col": 6,
+      "row": 10,
+      "release": "April 1, 2010",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This hot egg shakes violently when you touch it.": [
+    {
+      "name": "Hellhorse",
+      "col": 3,
+      "row": 12,
+      "release": "May 25, 2013",
+      "element": ["Fire"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has a holly leaf stuck to it.": [
+    {
+      "name": "Holiday 2007<br/>Holly",
+      "col": 17,
+      "row": 5,
+      "release": "December 25, 2007",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is covered with bright, festive stripes.": [
+    {
+      "name": "Holiday 2008<br/>Yulebuck",
+      "col": 15,
+      "row": 7,
+      "release": "December 25, 2008",
+      "element": ["Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg fills you with holiday cheer.": [
+    {
+      "name": "Holiday 2009<br/>Snow Angel",
+      "col": 1,
+      "row": 5,
+      "release": "December 25, 2009",
+      "element": ["Ice"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg shines like a holiday ribbon.": [
+    {
+      "name": "Holiday 2010<br/>Ribbon Dancer",
+      "col": 3,
+      "row": 11,
+      "release": "December 25, 2010",
+      "element": ["Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This colorful egg is covered by a light layer of snow.": [
+    {
+      "name": "Holiday 2011<br/>Blizzard Wizard",
+      "col": 17,
+      "row": 3,
+      "release": "December 25, 2011",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has a rich, shiny pattern on it.": [
+    {
+      "name": "Holiday 2012<br/>Wrapping-Wing",
+      "col": 19,
+      "row": 5,
+      "release": "December 25, 2012",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg emits a soft, heartwarming glow.": [
+    {
+      "name": "Holiday 2013<br/>Solstice",
+      "col": 18,
+      "row": 4,
+      "release": "December 25, 2013",
+      "element": ["Time"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This colorful egg gleams in the light.": [
+    {
+      "name": "Holiday 2014<br/>Mistletoe",
+      "col": 16,
+      "row": 3,
+      "release": "December 25, 2014",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "A wintry chill swirls just beneath the surface of this egg.": [
+    {
+      "name": "Holiday 2015<br/>Aegis",
+      "col": 10,
+      "row": 1,
+      "release": "December 25, 2015",
+      "element": ["Life", "Ice"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wingless)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is surrounded by frost.": [
+    {
+      "name": "Holiday 2016<br/>Snow",
+      "col": 5,
+      "row": 9,
+      "release": "December 25, 2016",
+      "element": ["Ice"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This festive egg gives off comforting warmth.": [
+    {
+      "name": "Holiday 2017<br/>Garland",
+      "col": 14,
+      "row": 11,
+      "release": "December 25, 2017",
+      "element": ["Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "N/A"
+    }
+  ],
+  "This egg glows with a soft, soothing light.": [
+    {
+      "name": "Holiday 2018<br/>Starsinger",
+      "col": 10,
+      "row": 5,
+      "release": "December 25, 2018",
+      "element": ["Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg emanates a gentle chime when met with the winter breeze.": [
+    {
+      "name": "Holiday 2019<br/>Wintertide",
+      "col": 16,
+      "row": 4,
+      "release": "December 25, 2019",
+      "element": ["Life", "Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "N/A"
+    }
+  ],
+  "Colorful light twinkles within this frozen egg.": [
+    {
+      "name": "Holiday 2020<br/>Glystere",
+      "col": 17,
+      "row": 1,
+      "release": "December 25, 2020",
+      "element": ["Ice", "Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This warm brown egg smells faintly of spices.": [
+    {
+      "name": "Holiday 2021<br/>Pryanost Lindwyrm",
+      "col": 9,
+      "row": 15,
+      "release": "December 25, 2021",
+      "element": ["Fire", "Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "N/A"
+    }
+  ],
+  "A warm, comforting light emanates from within this egg.": [
+    {
+      "name": "Holiday 2022<br/>Light Weaver",
+      "col": 9,
+      "row": 1,
+      "release": "December 25, 2022",
+      "element": ["Light", "Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "Powdery snow swirls gently around this egg.": [
+    {
+      "name": "Holiday 2023<br/>Harkfrost Dragon",
+      "col": 8,
+      "row": 16,
+      "release": "December 25, 2023",
+      "element": ["Air", "Ice"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "N/A"
+    }
+  ],
+  "A faint light glows from within this egg, as if it holds the essence of a winter night.": [
+    {
+      "name": "Holiday 2024<br>Noctivellus Dragon",
+      "col": 7,
+      "row": 17,
+      "release": "December 25, 2024",
+      "element": ["Time", "Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "The markings on this cloudy egg glint like gossamer in the sun.": [
+    {
+      "name": "Holiday 2025<br/>Cardinal",
+      "col": 15,
+      "row": 18,
+      "release": "December 25, 2025",
+      "element": ["Water", "Ice"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is covered in tiny golden scales.": [
+    {
+      "name": "Honey Drake",
+      "col": 14,
+      "row": 7,
+      "release": "November 26, 2016",
+      "element": ["Life"],
+      "habitat": ["Coast", "Forest", "Jungle"],
+      "morphology": "Drake",
+      "price": "400 - 500 shards"
+    }
+  ],
+  "This shady egg seems to be lurking just out of sight.": [
+    {
+      "name": "Hooded Murkling",
+      "col": 10,
+      "row": 13,
+      "release": "May 21, 2022",
+      "element": ["Dark", "Death"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "The surface of this egg is rough and sharp.": [
+    {
+      "name": "Hooktalon",
+      "col": 8,
+      "row": 3,
+      "release": "May 21, 2015",
+      "element": ["None"],
+      "habitat": ["Desert"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "You hear strange noises coming from inside this egg.": [
+    {
+      "name": "Howler Drake",
+      "col": 6,
+      "row": 16,
+      "release": "April 6, 2014",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Drake",
+      "price": "100 shards"
+    }
+  ],
+  "This smooth egg has a bright blue stripe on it.": [
+    {
+      "name": "Hunter",
+      "col": 20,
+      "row": 13,
+      "release": "May 21, 2023",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 shards"
+    }
+  ],
+  "This striped egg is surprisingly heavy.": [
+    {
+      "name": "Hydrophidius",
+      "col": 7,
+      "row": 14,
+      "release": "March 28, 2021",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Sabertooth Bull Drake",
+      "col": 7,
+      "row": 19,
+      "release": "June 27, 2021",
+      "element": ["Neutral"],
+      "habitat": ["Volcano"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has icicles forming on it.": [
+    {
+      "name": "Ice",
+      "col": 14,
+      "row": 6,
+      "release": "November 22, 2009",
+      "element": ["Ice"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "2,100 - 3,700 shards"
+    }
+  ],
+  "This egg sits atop a pile of smoldering ash.": [
+    {
+      "name": "Ignimbri",
+      "col": 10,
+      "row": 19,
+      "release": "May 21, 2026",
+      "element": ["Fire"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "400 shards"
+    }
+  ],
+  "This egg is hidden in the trees.": [
+    {
+      "name": "Imperial Fleshcrowne",
+      "col": 2,
+      "row": 8,
+      "release": "July 7, 2013",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 1,400 shards"
+    }
+  ],
+  "It’s a tiny speckled egg.": [
+    {
+      "name": "Impish Pygmy",
+      "col": 20,
+      "row": 17,
+      "release": "May 21, 2025",
+      "element": ["Dark"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy Dragon (Wingless)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg smells faintly of smoke and herbs.": [
+    {
+      "name": "Incense",
+      "col": 5,
+      "row": 11,
+      "release": "June 25, 2023",
+      "element": ["Magi", "Life"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Something about this heavy egg unnerves you.": [
+    {
+      "name": "Jaw Splitter Wyrm",
+      "col": 19,
+      "row": 2,
+      "release": "August 27, 2023",
+      "element": ["Death"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has a checkered shell.": [
+    {
+      "name": "Jester",
+      "col": 13,
+      "row": 5,
+      "release": "May 21, 2020",
+      "element": ["Death"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Three bold red stripes cut across this egg’s shell.": [
+    {
+      "name": "Kaikos",
+      "col": 17,
+      "row": 16,
+      "release": "September 29, 2024",
+      "element": ["Death"],
+      "habitat": ["Forest", "Coast"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is smooth and shiny.": [
+    {
+      "name": "Khusa",
+      "col": 15,
+      "row": 8,
+      "release": "August 27, 2017",
+      "element": ["Earth"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This shiny egg gives off an almost magical aura.": [
+    {
+      "name": "Kingcrowne",
+      "col": 13,
+      "row": 13,
+      "release": "August 21, 2016",
+      "element": ["Light", "Magi"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "700 - 900 shards"
+    }
+  ],
+  "This glimmering egg emanates the ocean’s sounds.": [
+    {
+      "name": "Kymatumi",
+      "col": 11,
+      "row": 19,
+      "release": "May 21, 2026",
+      "element": ["Water", "Magi"],
+      "habitat": ["Alpine", "Coast", "Desert", "Forest", "Rotating"],
+      "morphology": "Dragon (Wingless)",
+      "price": "400 shards"
+    }
+  ],
+  "This tiny, dark egg fills you with existential dread.": [
+    {
+      "name": "Kovos Pygmy",
+      "col": 6,
+      "row": 15,
+      "release": "May 21, 2019",
+      "element": ["Water", "Death"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy (Lindwyrm)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This tiny cobalt egg has a crystalline sheen.": [
+    {
+      "name": "Kyanite Pygmy",
+      "col": 11,
+      "row": 14,
+      "release": "August 21, 2016",
+      "element": ["Earth"],
+      "habitat": ["All"],
+      "morphology": "Pygmy (Eastern)",
+      "price": "500 - 700 shards"
+    }
+  ],
+  "This shimmering egg was hidden far from the others.": [
+    {
+      "name": "Labradorite",
+      "col": 12,
+      "row": 13,
+      "release": "May 21, 2020",
+      "element": ["Dark", "Earth"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Eastern)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "This green and silver egg lurks in the shadows, tempting you to steal it.": [
+    {
+      "name": "Lacula",
+      "col": 19,
+      "row": 11,
+      "release": "May 21, 2018",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg looks like cooled lava.": [
+    {
+      "name": "Lalopias Leviathans",
+      "col": 16,
+      "row": 16,
+      "release": "March 24, 2024",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "April Fools’ Day.": [
+    {
+      "name": "Leetle Tree",
+      "col": 12,
+      "row": 1
+    }
+  ],
+  "Autumn": [
+    {
+      "name": "Leetle Tree",
+      "col": 11,
+      "row": 18
+    }
+  ],
+  "Christmas": [
+    {
+      "name": "Leetle Tree",
+      "col": 14,
+      "row": 18
+    }
+  ],
+  "Earth Day.": [
+    {
+      "name": "Leetle Tree",
+      "col": 3,
+      "row": 2
+    }
+  ],
+  "Halloween": [
+    {
+      "name": "Leetle Tree",
+      "col": 12,
+      "row": 18
+    }
+  ],
+  "Leetle Tree.": [
+    {
+      "name": "Leetle Tree",
+      "col": 11,
+      "row": 2
+    }
+  ],
+  "Spring.": [
+    {
+      "name": "Leetle Tree",
+      "col": 20,
+      "row": 2
+    }
+  ],
+  "Summer": [
+    {
+      "name": "Leetle Tree",
+      "col": 10,
+      "row": 18
+    }
+  ],
+  "Valentine’s Day": [
+    {
+      "name": "Leetle Tree",
+      "col": 14,
+      "row": 15
+    }
+  ],
+  "Winter": [
+    {
+      "name": "Leetle Tree",
+      "col": 13,
+      "row": 18
+    }
+  ],
+  "This red and gold egg sits before the others, almost daring you to grab it.": [
+    {
+      "name": "Leodon",
+      "col": 4,
+      "row": 13,
+      "release": "May 21, 2018",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This tiny blue egg gives you a slight shock when you touch it.": [
+    {
+      "name": "Lightning Pygmy",
+      "col": 10,
+      "row": 14,
+      "release": "July 3, 2022",
+      "element": ["Lightning"],
+      "habitat": ["All"],
+      "morphology": "Pygmy dragon (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg glows vibrantly in the dark.": [
+    {
+      "name": "Lightstreak",
+      "col": 8,
+      "row": 5,
+      "release": "May 21, 2023",
+      "element": ["Light"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 shards"
+    }
+  ],
+  "This glowing egg seems to tug at your very core.": [
+    {
+      "name": "Lihnseyre",
+      "col": 18,
+      "row": 11,
+      "release": "May 21, 2019",
+      "element": ["Life", "Magi"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Eastern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This scaly egg seems to disappear in the depths.": [
+    {
+      "name": "Lotaan",
+      "col": 8,
+      "row": 13,
+      "release": "April 24, 2022",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg shines brightly in the sunlight.": [
+    {
+      "name": "Lumina",
+      "col": 18,
+      "row": 10,
+      "release": "May 22, 2012",
+      "element": ["Light"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "The markings on this egg glow brightly in the shadows.": [
+    {
+      "name": "Luminox",
+      "col": 5,
+      "row": 3,
+      "release": "July 21, 2019",
+      "element": ["Fire"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 - 400 shards"
+    }
+  ],
+  "This surface of this egg is covered in pits and craters.": [
+    {
+      "name": "Luna",
+      "col": 19,
+      "row": 17,
+      "release": "May 21, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This metallic egg shows faint iridescence in moonlight.": [
+    {
+      "name": "Lunar Herald",
+      "col": 15,
+      "row": 12,
+      "release": "August 29, 2015",
+      "element": ["Light", "Time"],
+      "habitat": ["Alpine", "Desert", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg’s shell has thin bands of vivid color.": [
+    {
+      "name": "Lunate Wyvern",
+      "col": 1,
+      "row": 18,
+      "release": "June 29, 2025",
+      "element": ["Life", "Magi"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This small egg is engulfed in a cool, purple flame.": [
+    {
+      "name": "Magelight Pygmy",
+      "col": 18,
+      "row": 13,
+      "release": "May 21, 2015",
+      "element": ["None"],
+      "habitat": ["Alpine"],
+      "morphology": "Pygmy (Wyvern)",
+      "price": "300 - 500 shards"
+    }
+  ],
+  "This egg has an orange aura radiating from it.": [
+    {
+      "name": "Magi",
+      "col": 8,
+      "row": 6,
+      "release": "June 2006",
+      "element": ["Magi"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is almost too hot to touch.": [
+    {
+      "name": "Magma",
+      "col": 6,
+      "row": 7,
+      "release": "November 22, 2009",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "2,900 - 4,900 shards"
+    }
+  ],
+  "This shiny grey egg smells of burnt metal.": [
+    {
+      "name": "Magnesium Amphiptere",
+      "col": 17,
+      "row": 13,
+      "release": "April 25, 2021",
+      "element": ["Fire"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Two-headed dragon (Amphiptere)",
+      "price": "100 shards"
+    }
+  ],
+  "This tiny egg smells like the sea.": [
+    {
+      "name": "Mariner Pygmy",
+      "col": 3,
+      "row": 15,
+      "release": "April 27, 2019",
+      "element": ["Neutral"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg has washed up on the beach.": [
+    {
+      "name": "Marocephalic",
+      "col": 3,
+      "row": 7,
+      "release": "May 21, 2023",
+      "element": ["Life", "Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 shards"
+    }
+  ],
+  "This heavy egg has an earthy scent, like freshly-tilled soil.": [
+    {
+      "name": "Melismor",
+      "col": 2,
+      "row": 12,
+      "release": "May 21, 2018",
+      "element": ["Earth"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This tiny glowing egg tempts you to follow its light.": [
+    {
+      "name": "Mimic Pygmy",
+      "col": 4,
+      "row": 15,
+      "release": "July 29, 2018",
+      "element": ["Magi"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Pygmy (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg is hidden behind the others, as if it is shy.": [
+    {
+      "name": "Mint",
+      "col": 20,
+      "row": 7,
+      "release": "May 21, 2006",
+      "element": ["Neutral"],
+      "habitat": ["Coast", "Forest", "Jungle", "Alpine", "Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg emanates a peculiar smell.": [
+    {
+      "name": "Mirisia Amphiptere",
+      "col": 17,
+      "row": 4,
+      "release": "September 26, 2021",
+      "element": ["Life"],
+      "habitat": ["Alpine", "Forest", "Jungle"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny egg has crazy swirls on it.": [
+    {
+      "name": "Misfit Pygmy",
+      "col": 15,
+      "row": 14,
+      "release": "May 21, 2011",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Pygmy (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "Sparks dance beneath the translucent surface of this dark egg.": [
+    {
+      "name": "Missinic",
+      "col": 17,
+      "row": 17,
+      "release": "July 27, 2025",
+      "element": ["Lightning"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    }
+  ],
+  "This tiny egg is mysterious and dark.": [
+    {
+      "name": "Mistlet Pygmy",
+      "col": 18,
+      "row": 14,
+      "release": "May 21, 2011",
+      "element": ["None"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "You hear a soft melody as you approach this egg.": [
+    {
+      "name": "Mistra",
+      "col": 5,
+      "row": 16,
+      "release": "September 22, 2020",
+      "element": ["Air"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This golden egg is shiny and warm.": [
+    {
+      "name": "Miufu",
+      "col": 16,
+      "row": 17,
+      "release": "August 31, 2025",
+      "element": ["Life"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Two-headed dragon (Eastern)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is buried in leaf litter.": [
+    {
+      "name": "Monarch",
+      "col": 7,
+      "row": 7,
+      "release": "September 25, 2016",
+      "element": ["Earth"],
+      "habitat": ["Jungle", "Forest", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "Moonlight ripples across this fragile egg’s shell.": [
+    {
+      "name": "Moonblight",
+      "col": 14,
+      "row": 17,
+      "release": "September 28, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "Moonlight ripples across this large egg’s fragile shell.": [
+    {
+      "name": "Moonblight (Two-Headed)",
+      "col": 6,
+      "row": 18,
+      "release": "September 28, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Cursed)"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "Moonlight ripples across this smooth egg’s fragile shell.": [
+    {
+      "name": "Moonblight Drake",
+      "col": 7,
+      "row": 18,
+      "release": "September 28, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Cursed)"],
+      "morphology": "Drake",
+      "price": "N/A"
+    }
+  ],
+  "Moonlight ripples across this tiny egg’s fragile shell.": [
+    {
+      "name": "Moonblight Pygmy",
+      "col": 15,
+      "row": 17,
+      "release": "September 28, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Cursed)"],
+      "morphology": "Pygmy Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "A few bright markings decorate this egg’s shell.": [
+    {
+      "name": "Morphodrake",
+      "col": 3,
+      "row": 1,
+      "release": "May 21, 2016",
+      "element": ["Light"],
+      "habitat": ["Jungle"],
+      "morphology": "Drake",
+      "price": "100 shards"
+    }
+  ],
+  "This egg glows with a brilliant radiance.": [
+    {
+      "name": "Nebula",
+      "col": 9,
+      "row": 5,
+      "release": "April 1, 2010",
+      "element": ["Light"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "500 - 800 shards"
+    }
+  ],
+  "This egg is very sickly looking, like it’s diseased.": [
+    {
+      "name": "Neglected",
+      "col": 13,
+      "row": 9,
+      "release": "June 2, 2007",
+      "element": ["None"],
+      "habitat": ["Unknown"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has strange yellow stripes.": [
+    {
+      "name": "Neotropical",
+      "col": 20,
+      "row": 6,
+      "release": "August 25, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This dense, crystalline egg seems dangerously unstable.": [
+    {
+      "name": "Nexus",
+      "col": 4,
+      "row": 4,
+      "release": "May 21, 2016",
+      "element": ["Dark"],
+      "habitat": ["Alpine", "Volcano"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "1,300 - 1,800 shards"
+    }
+  ],
+  "This dull purple egg has two bright stripes on it.": [
+    {
+      "name": "Nhiostrife Wyvern",
+      "col": 9,
+      "row": 4,
+      "release": "November 30, 2013",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny egg is heavier than you expected.": [
+    {
+      "name": "Nilia Pygmy",
+      "col": 17,
+      "row": 14,
+      "release": "May 21, 2011<br />May 21, 2021 (Green variant)",
+      "element": ["None"],
+      "habitat": ["Alpine"],
+      "morphology": "Pygmy (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This tough egg has a protective ridge down its shell.": [
+    {
+      "name": "Nobleshield",
+      "col": 7,
+      "row": 15,
+      "release": "January 24, 2021",
+      "element": ["Neutral", "Fire"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg appears to be made of limestone.": [
+    {
+      "name": "Nocturne",
+      "col": 11,
+      "row": 4,
+      "release": "January 15, 2010",
+      "element": ["Time"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "Shadows flicker wildly around this diminutive egg.": [
+    {
+      "name": "Occulri Pygmy",
+      "col": 15,
+      "row": 2,
+      "release": "April 30, 2023",
+      "element": ["Magi", "Dark"],
+      "habitat": ["Jungle"],
+      "morphology": "Pygmy dragon (Amphiptere)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg smells musty, like rotting leaves.": [
+    {
+      "name": "Olive",
+      "col": 7,
+      "row": 11,
+      "release": "August 15, 2012",
+      "element": ["Dark"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "It feels like this egg knew you were coming.": [
+    {
+      "name": "Oracle Wyrm",
+      "col": 7,
+      "row": 2,
+      "release": "July 25, 2021",
+      "element": ["Light"],
+      "habitat": ["Alpine", "Coast", "Forest", "Jungle"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Whenever you pick up this egg, you feel as though someone is watching you.": [
+    {
+      "name": "Ouhou Wyvern",
+      "col": 3,
+      "row": 18,
+      "release": "May 21, 2025",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This little egg blends into the sand.": [
+    {
+      "name": "Painted Ray Pygmy",
+      "col": 10,
+      "row": 12,
+      "release": "September 25, 2022",
+      "element": ["Water", "Magi"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy dragon (Amphiptere)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is tiny and made out of several pieces of paper folded together.": [
+    {
+      "name": "Paper",
+      "col": 8,
+      "row": 9,
+      "release": "December 3, 2007",
+      "element": ["None"],
+      "habitat": ["All"],
+      "morphology": "Enchanted construct (Lindwyrm)",
+      "price": "2,000 - 3,500 shards"
+    }
+  ],
+  "This tiny egg glints in the moonlight.": [
+    {
+      "name": "Papillune Pygmy",
+      "col": 18,
+      "row": 18,
+      "release": "March 29, 2026",
+      "element": ["Light"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Pygmy dragon (Western)",
+      "price": "300 shards"
+    }
+  ],
+  "This tiny egg resembles a seed.": [
+    {
+      "name": "Pargulus Pygmy",
+      "col": 1,
+      "row": 15,
+      "release": "May 21, 2020",
+      "element": ["Life"],
+      "habitat": ["Alpine", "Coast", "Desert", "Jungle", "Forest", "Volcano"],
+      "morphology": "Pygmy (Western)",
+      "price": "200 - 500 shards"
+    }
+  ],
+  "This egg was left in an ornate nest of fur and grass.": [
+    {
+      "name": "Pastel",
+      "col": 8,
+      "row": 17,
+      "release": "August 25, 2024",
+      "element": ["Neutral"],
+      "habitat": ["Alpine"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is well-camouflaged.": [
+    {
+      "name": "Peach Pied",
+      "col": 16,
+      "row": 9,
+      "release": "August 27, 2023",
+      "element": ["Neutral"],
+      "habitat": ["Coast", "Forest", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg reverberates with a sound that is somehow haunting and soothing at once.": [
+    {
+      "name": "Phantasma",
+      "col": 5,
+      "row": 18,
+      "release": "May 21, 2025",
+      "element": ["Dark", "Magi"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has a velvety texture.": [
+    {
+      "name": "Pillow",
+      "col": 4,
+      "row": 6,
+      "release": "March 16, 2011",
+      "element": ["Neutral"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "It’s bright. And pink.": [
+    {
+      "name": "Pink",
+      "col": 9,
+      "row": 2,
+      "release": "April 22, 2009",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 300 shards"
+    },
+    {
+      "name": "Flamingo Wyvern",
+      "col": 12,
+      "row": 19,
+      "release": "August 28, 2010",
+      "element": ["Earth"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg looks like it doesn’t belong; it is glossy and covered with white spots.": [
+    {
+      "name": "Pink Dino",
+      "col": 12,
+      "row": 17,
+      "release": "September 29, 2024",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon creature",
+      "price": "1,200 - 2,000 shards"
+    }
+  ],
+  "This little egg is soft with a few feathers stuck to it.": [
+    {
+      "name": "Pipio Pygmy",
+      "col": 11,
+      "row": 12,
+      "release": "September 30, 2018",
+      "element": ["Air"],
+      "habitat": ["All"],
+      "morphology": "Pygmy (Western)",
+      "price": "300 - 500 shards"
+    }
+  ],
+  "This massive egg is covered with thick plates.": [
+    {
+      "name": "Plated Colossus",
+      "col": 14,
+      "row": 12,
+      "release": "March 28, 2015",
+      "element": ["Earth"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This prismatic egg smolders slightly.": [
+    {
+      "name": "Prismanic Amphiptere",
+      "col": 19,
+      "row": 18,
+      "release": "April 26, 2026",
+      "element": ["Light", "Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "200 shards"
+    }
+  ],
+  "It almost looks like there are claw marks on this egg.": [
+    {
+      "name": "Pseudo-wyvern Drake",
+      "col": 6,
+      "row": 2,
+      "release": "July 26, 2020",
+      "element": ["Neutral"],
+      "habitat": ["Desert"],
+      "morphology": "Drake",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "Wow, purple isn’t a color of egg you expected to see.": [
+    {
+      "name": "Purple",
+      "col": 20,
+      "row": 15,
+      "release": "May 21, 2006",
+      "element": ["Life"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg feels like polished stone.": [
+    {
+      "name": "Pyralspite",
+      "col": 20,
+      "row": 4,
+      "release": "September 20, 2014",
+      "element": ["Earth"],
+      "habitat": ["Alpine", "Volcano", "Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "500 - 800 shards"
+    }
+  ],
+  "Tough ridges line the surface of this rough, mottled egg.": [
+    {
+      "name": "Pyropellis Wyvern",
+      "col": 12,
+      "row": 15,
+      "release": "August 22, 2021",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This glassy egg is too hot to hold with your bare hands.": [
+    {
+      "name": "Pyrovar",
+      "col": 16,
+      "row": 11,
+      "release": "July 1, 2018",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "When you tap on this shell, the hatchling inside taps back.": [
+    {
+      "name": "Pyrrhichios",
+      "col": 17,
+      "row": 15,
+      "release": "May 21, 2022",
+      "element": ["Time"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "A single blue spot marks this egg.": [
+    {
+      "name": "Quonebb",
+      "col": 7,
+      "row": 1,
+      "release": "August 28, 2022",
+      "element": ["Magi", "Life"],
+      "habitat": ["Coast", "Forest", "Jungle"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This blue and bronze egg piques your curiosity.": [
+    {
+      "name": "Razorcrest Wyvern",
+      "col": 12,
+      "row": 3,
+      "release": "May 21, 2018",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is rather warm.": [
+    {
+      "name": "Red",
+      "col": 6,
+      "row": 8,
+      "release": "August 5, 2007",
+      "element": ["Fire"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 700 shards"
+    }
+  ],
+  "This egg looks like it doesn’t belong; it is brightly colored with white spots. It’s much warmer than the rest of the eggs.": [
+    {
+      "name": "Red Dino",
+      "col": 2,
+      "row": 10,
+      "release": "June 19, 2007",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon",
+      "price": "2,000 - 3,800 shards"
+    }
+  ],
+  "This tiny egg has a bold red streak on it.": [
+    {
+      "name": "Red-Tailed Wyrm Pygmy",
+      "col": 14,
+      "row": 14,
+      "release": "April 22, 2018",
+      "element": ["Air"],
+      "habitat": ["Desert", "Forest", "Jungle"],
+      "morphology": "Pygmy Dragon (Wyrm)",
+      "price": "300 - 400 shards"
+    }
+  ],
+  "A cool mountain breeze blows around this egg.": [
+    {
+      "name": "Ridgewing",
+      "col": 2,
+      "row": 1,
+      "release": "August 28, 2010",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "400 - 500 shards"
+    }
+  ],
+  "This egg radiates an otherworldly chill.": [
+    {
+      "name": "Rift Wyrm",
+      "col": 5,
+      "row": 10,
+      "release": "June 30, 2019",
+      "element": ["Magi", "Water"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "200 - 600 shards"
+    }
+  ],
+  "This bright egg shines in the morning sunlight.": [
+    {
+      "name": "Risensong",
+      "col": 14,
+      "row": 3,
+      "release": "June 25, 2017",
+      "element": ["Light"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This egg shines in the moonlight.": [
+    {
+      "name": "Royal Blue",
+      "col": 1,
+      "row": 11,
+      "release": "January 23, 2012",
+      "element": ["Neutral"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This large egg is a dark crimson color.": [
+    {
+      "name": "Royal Crimson",
+      "col": 7,
+      "row": 12,
+      "release": "April 7, 2013",
+      "element": ["Neutral"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This magnificent purple egg shimmers in the light.": [
+    {
+      "name": "Royal Eminence",
+      "col": 13,
+      "row": 12,
+      "release": "May 21, 2021",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg was buried in a sand dune.": [
+    {
+      "name": "Sandwaste",
+      "col": 11,
+      "row": 11,
+      "release": "December 1, 2019",
+      "element": ["Earth"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg’s shell is slippery and clean.": [
+    {
+      "name": "Sapo",
+      "col": 12,
+      "row": 11,
+      "release": "May 21, 2020",
+      "element": ["Water"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg looks like a beautiful blue stone.": [
+    {
+      "name": "Sapphire",
+      "col": 19,
+      "row": 9,
+      "release": "March 19, 2016 (Blue variant)May 21, 2021 (Pink and yellow variants)",
+      "element": ["Light"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "Soft chirping sounds are coming from inside the egg.": [
+    {
+      "name": "Sawtooth",
+      "col": 17,
+      "row": 2,
+      "release": "April 25, 2021",
+      "element": ["Water", "Air"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg seems quite harmless.": [
+    {
+      "name": "Scimitar-wing Wyvern",
+      "col": 11,
+      "row": 10,
+      "release": "April 28, 2017",
+      "element": ["Neutral"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "You feel a clawing dread the closer you get to this egg.": [
+    {
+      "name": "Scourgekeeper",
+      "col": 4,
+      "row": 16,
+      "release": "May 21, 2022",
+      "element": ["Time", "Life"],
+      "habitat": ["Unknown (Must be allied after an Adventure)"],
+      "morphology": "Two-headed dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is covered in mysterious patterns.": [
+    {
+      "name": "Script",
+      "col": 10,
+      "row": 7,
+      "release": "July 17, 2017",
+      "element": ["Magi"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny egg flashes in the sunlight.": [
+    {
+      "name": "Scymrian Pygmy",
+      "col": 12,
+      "row": 14,
+      "release": "September 26, 2021",
+      "element": ["Life"],
+      "habitat": ["All"],
+      "morphology": "Pygmy (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "The markings on this egg match the weather outside.": [
+    {
+      "name": "Seasonal (Autumn)",
+      "col": 6,
+      "row": 3,
+      "release": "November 28, 2008",
+      "element": ["Time"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    },
+    {
+      "name": "Seasonal (Spring)",
+      "col": 13,
+      "row": 19,
+      "release": "April 10, 2009",
+      "element": ["Time"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    },
+    {
+      "name": "Seasonal (Summer)",
+      "col": 14,
+      "row": 19,
+      "release": "September 14, 2008",
+      "element": ["Time"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    },
+    {
+      "name": "Seasonal (Winter)",
+      "col": 15,
+      "row": 19,
+      "release": "December 21, 2008",
+      "element": ["Time"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This tiny egg shines like a pearl.": [
+    {
+      "name": "Seawyrm Pygmy",
+      "col": 2,
+      "row": 15,
+      "release": "May 21, 2011",
+      "element": ["None"],
+      "habitat": ["Coast"],
+      "morphology": "Pygmy dragon (Lindwyrm)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is covered in soft, downy feathers.": [
+    {
+      "name": "Seraph",
+      "col": 18,
+      "row": 16,
+      "release": "July 28, 2024",
+      "element": ["Life", "Light"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has striations marking its rough shell.": [
+    {
+      "name": "Serrati Wyvern",
+      "col": 1,
+      "row": 7,
+      "release": "May 28, 2013",
+      "element": ["Death"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This dark egg shines in the evening sunlight.": [
+    {
+      "name": "Setsong",
+      "col": 1,
+      "row": 4,
+      "release": "June 25, 2017",
+      "element": ["Light"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This striped egg has a rough, ridged texture.": [
+    {
+      "name": "Shumoga",
+      "col": 5,
+      "row": 14,
+      "release": "August 22, 2021",
+      "element": ["Fire"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg gives off a beautiful glow.": [
+    {
+      "name": "Silver",
+      "col": 2,
+      "row": 5,
+      "release": "September 22, 2007",
+      "element": ["Light"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Eastern)",
+      "price": "1,600 - 2,300 shards"
+    },
+    {
+      "name": "Sophrosyne",
+      "col": 20,
+      "row": 19,
+      "release": "April 7, 2013",
+      "element": ["Light"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This dark egg has bright flecks that almost seem to move as they catch the light.": [
+    {
+      "name": "Silvershade Wyvern",
+      "col": 20,
+      "row": 3,
+      "release": "May 21, 2023",
+      "element": ["Time", "Light"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This striped egg has a warm glow.": [
+    {
+      "name": "Sinii Krai",
+      "col": 6,
+      "row": 14,
+      "release": "April 28, 2017",
+      "element": ["None"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This dark egg has a delicate shell that smells faintly of pine.": [
+    {
+      "name": "Siorghlas Wyvern",
+      "col": 3,
+      "row": 17,
+      "release": "June 30, 2024",
+      "element": ["Life", "Fire"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This dark egg has a hard shell that smells faintly of pine.": [
+    {
+      "name": "Siorghlas Wyvern",
+      "col": 8,
+      "row": 18,
+      "release": "June 30, 2024",
+      "element": ["Life", "Fire"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg seems to be glowing in spots.": [
+    {
+      "name": "Siyat",
+      "col": 13,
+      "row": 10,
+      "release": "June 30, 2024",
+      "element": ["Life", "Fire"],
+      "habitat": ["Alpine", "Forest"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This light egg has very vibrant colors.": [
+    {
+      "name": "Skysilk",
+      "col": 8,
+      "row": 12,
+      "release": "April 27, 2019",
+      "element": ["Air"],
+      "habitat": ["Desert", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This plain blue egg almost seems to float.": [
+    {
+      "name": "Skystrider",
+      "col": 20,
+      "row": 12,
+      "release": "August 23, 2020",
+      "element": ["Air"],
+      "habitat": ["Alpine", "Forest", "Coast"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    }
+  ],
+  "This heavy egg is enveloped in thick, sturdy plates.": [
+    {
+      "name": "Slag-Tail Behemoth",
+      "col": 2,
+      "row": 19
+    }
+  ],
+  "This egg glows with the light of the moon.": [
+    {
+      "name": "Sonata",
+      "col": 11,
+      "row": 5,
+      "release": "April 30, 2023",
+      "element": ["Light", "Dark"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg has a rough—yet shiny—shell.": [
+    {
+      "name": "Speckle-Throated",
+      "col": 1,
+      "row": 6,
+      "release": "March 4, 2013",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This glassy egg has a single stripe on it.": [
+    {
+      "name": "Spinel Wyvern",
+      "col": 15,
+      "row": 11,
+      "release": "September 30, 2017",
+      "element": ["Earth"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg glows from within.": [
+    {
+      "name": "Spirit Ward",
+      "col": 6,
+      "row": 5,
+      "release": "July 26, 2015",
+      "element": ["Light"],
+      "habitat": ["Forest", "Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg has brightly colored markings on it.": [
+    {
+      "name": "Spitfire",
+      "col": 10,
+      "row": 6,
+      "release": "July 4, 2010",
+      "element": ["Fire"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    },
+    {
+      "name": "Striped",
+      "col": 1,
+      "row": 20,
+      "release": "April 22, 2009March 16, 2011 (Black variant)",
+      "element": ["Neutral"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is split down the middle into two colors.": [
+    {
+      "name": "Split",
+      "col": 1,
+      "row": 9,
+      "release": "October 12, 2007",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Two-headed dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is covered in bright spots.": [
+    {
+      "name": "Spotted Greenwing",
+      "col": 9,
+      "row": 7,
+      "release": "September 17, 2011",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "You almost didn’t see this egg among the plants.": [
+    {
+      "name": "Spotted Teal Drake",
+      "col": 1,
+      "row": 16,
+      "release": "June 27, 2021",
+      "element": ["Earth"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Drake",
+      "price": "N/A"
+    }
+  ],
+  "A red stone is embedded in this egg’s cold shell.": [
+    {
+      "name": "Stellarum",
+      "col": 6,
+      "row": 1,
+      "release": "May 21, 2023",
+      "element": ["Magi (element)"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is surrounded by fog.": [
+    {
+      "name": "Storm",
+      "col": 4,
+      "row": 9,
+      "release": "June 19, 2007",
+      "element": ["Air"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This metal egg discharges bolts of electricity occasionally.": [
+    {
+      "name": "Stormherald",
+      "col": 2,
+      "row": 20,
+      "release": "June 19, 2007",
+      "element": ["Air"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "You can feel the static electricity that surrounds this egg.": [
+    {
+      "name": "Storm-Rider",
+      "col": 2,
+      "row": 16,
+      "release": "July 10, 2016",
+      "element": ["Lightning"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is very large, but light for its size.": [
+    {
+      "name": "Stratos",
+      "col": 10,
+      "row": 9,
+      "release": "March 22, 2020",
+      "element": ["Air", "Light"],
+      "habitat": ["Alpine", "Desert", "Jungle"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "A small puddle of condensation has collected under this egg.": [
+    {
+      "name": "Striped River",
+      "col": 8,
+      "row": 1,
+      "release": "March 28, 2015",
+      "element": ["Water"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Eastern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg displays the colors of both dawn and dusk.": [
+    {
+      "name": "Sunbeam Drake",
+      "col": 15,
+      "row": 4,
+      "release": "May 26, 2010",
+      "element": ["None"],
+      "habitat": ["Forest"],
+      "morphology": "Drake",
+      "price": "100 - 800 shards"
+    },
+    {
+      "name": "Moonglow Drake",
+      "col": 16,
+      "row": 20,
+      "release": "May 26, 2010",
+      "element": ["None"],
+      "habitat": ["Forest"],
+      "morphology": "Drake",
+      "price": "100 - 700 shards"
+    }
+  ],
+  "This egg is glowing as brightly as the sun.": [
+    {
+      "name": "Sunrise",
+      "col": 18,
+      "row": 7,
+      "release": "April 22, 2009",
+      "element": ["Light"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    },
+    {
+      "name": "Sunset",
+      "col": 18,
+      "row": 7,
+      "release": "April 22, 2009",
+      "element": ["Light"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg changes colors in the sunlight.": [
+    {
+      "name": "Sunsong Amphiptere",
+      "col": 14,
+      "row": 4,
+      "release": "April 1, 2010",
+      "element": ["Light"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg resembles a glowing stone.": [
+    {
+      "name": "Sunstone",
+      "col": 10,
+      "row": 10,
+      "release": "July 18, 2011",
+      "element": ["Fire"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    },
+    {
+      "name": "Moonstone",
+      "col": 9,
+      "row": 19,
+      "release": "July 18, 2011",
+      "element": ["Magi"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has a very thin shell.": [
+    {
+      "name": "Swallowtail",
+      "col": 6,
+      "row": 6,
+      "release": "March 16, 2011",
+      "element": ["Air"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "The light swirls on this egg stand out against the dark underbrush.": [
+    {
+      "name": "Tangledrakin",
+      "col": 4,
+      "row": 3,
+      "release": "October 1, 2023",
+      "element": ["Earth", "Life"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Two-headed dragon (Wingless)",
+      "price": "200 shards"
+    }
+  ],
+  "A delicate web-like pattern decorates this egg’s shell.": [
+    {
+      "name": "Tarantula Hawk Drake",
+      "col": 2,
+      "row": 1,
+      "release": "May 21, 2016",
+      "element": ["Earth"],
+      "habitat": ["Desert"],
+      "morphology": "Drake",
+      "price": "100 shards"
+    }
+  ],
+  "This egg has a rough shell.": [
+    {
+      "name": "Tatterdrake",
+      "col": 20,
+      "row": 5,
+      "release": "April 22, 2018",
+      "element": ["Dark"],
+      "habitat": ["Forest", "Jungle"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has a winding pattern on it.": [
+    {
+      "name": "Temple Wyrm",
+      "col": 7,
+      "row": 6,
+      "release": "July 25, 2021",
+      "element": ["Light"],
+      "habitat": ["Desert", "Jungle"],
+      "morphology": "Two-headed dragon (Wyrm)",
+      "price": "200 shards"
+    }
+  ],
+  "Water glistens on this egg’s shimmering shell.": [
+    {
+      "name": "Tercorn",
+      "col": 15,
+      "row": 15,
+      "release": "September 1, 2019",
+      "element": ["Water", "Life"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 300 shards"
+    },
+    {
+      "name": "Ushgorn",
+      "col": 3,
+      "row": 20,
+      "release": "March 19, 2023",
+      "element": ["Water", "Fire"],
+      "habitat": ["None", "Hybrid"],
+      "morphology": "Dragon (Wingless)",
+      "price": "N/A"
+    }
+  ],
+  "This egg washed ashore.": [
+    {
+      "name": "Teris Wyvern",
+      "col": 4,
+      "row": 17,
+      "release": "March 30, 2025",
+      "element": ["Air", "Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is a lush green hue.": [
+    {
+      "name": "Terrae",
+      "col": 5,
+      "row": 7,
+      "release": "May 26, 2010",
+      "element": ["Earth"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wingless)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has faint markings.": [
+    {
+      "name": "Tetra",
+      "col": 13,
+      "row": 6,
+      "release": "March 19, 2017",
+      "element": ["Neutral"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "A serene calm washes over you as you approach this navy egg.": [
+    {
+      "name": "Thousand Wish",
+      "col": 12,
+      "row": 16,
+      "release": "May 21, 2024",
+      "element": ["Life", "Lightning"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 shards"
+    }
+  ],
+  "Whenever you go near this egg your hair stands on end.": [
+    {
+      "name": "Thunder",
+      "col": 18,
+      "row": 15,
+      "release": "November 22, 2009",
+      "element": ["Lightning"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "1,900 - 3,700 shards"
+    }
+  ],
+  "Cold lightning arcs out from this egg’s shell if you try to touch it.": [
+    {
+      "name": "Thundersnow",
+      "col": 16,
+      "row": 1,
+      "release": "May 21, 2022",
+      "element": ["Ice", "Lightning"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg has vivid red stripes, reminiscent of waves and flames at once.": [
+    {
+      "name": "Tideweaver Lindwyrm",
+      "col": 2,
+      "row": 7,
+      "release": "September 8, 2013",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This egg is very reflective, almost metallic looking.": [
+    {
+      "name": "Tinsel",
+      "col": 11,
+      "row": 9,
+      "release": "February 13, 2011",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Prize dragon)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    },
+    {
+      "name": "Shimmer-scale",
+      "col": 16,
+      "row": 19,
+      "release": "January 29, 2013",
+      "element": ["Water"],
+      "habitat": ["Unknown (Prize dragon)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This brown egg is covered in intricate designs.": [
+    {
+      "name": "Tri-Horn Wyvern",
+      "col": 15,
+      "row": 3,
+      "release": "November 23, 2012",
+      "element": ["Ice"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This tiny egg is leathery and damp.": [
+    {
+      "name": "Trion Pygmy",
+      "col": 10,
+      "row": 17,
+      "release": "April 27, 2025",
+      "element": ["Water", "Death"],
+      "habitat": ["Coast", "Jungle"],
+      "morphology": "Pygmy (Leviathan)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is rocking back and forth in a puddle, creating small waves.": [
+    {
+      "name": "Tsunami Wyvern",
+      "col": 8,
+      "row": 8,
+      "release": "May 22, 2012",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This egg smells strongly of turpentine.": [
+    {
+      "name": "Turpentine",
+      "col": 10,
+      "row": 11,
+      "release": "April 25, 2012",
+      "element": ["Dark"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "This tiny egg is twinkling with prismatic light.": [
+    {
+      "name": "Twinklecape Pygmy",
+      "col": 1,
+      "row": 17,
+      "release": "April 28, 2024",
+      "element": ["Light", "Air"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Pygmy (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has colored speckles on it.": [
+    {
+      "name": "Two-Finned Bluna",
+      "col": 11,
+      "row": 6,
+      "release": "January 15, 2010",
+      "element": ["Water"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is very warm, as if it has been sitting out in strong sunlight.": [
+    {
+      "name": "Ultraviolet",
+      "col": 14,
+      "row": 9,
+      "release": "May 22, 2012",
+      "element": ["Light"],
+      "habitat": ["Unknown (Hybrid)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "There is a thin layer of moisture coating this egg.": [
+    {
+      "name": "Undine",
+      "col": 10,
+      "row": 3,
+      "release": "August 2, 2014",
+      "element": ["Water"],
+      "habitat": ["Forest", "Alpine"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is speckled and very fragile.": [
+    {
+      "name": "Valentine's 2009<br/>Valentine",
+      "col": 19,
+      "row": 8,
+      "release": "February 14, 2009",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg looks delicate and sweet.": [
+    {
+      "name": "Valentine's 2010<br/>Sweetling",
+      "col": 18,
+      "row": 9,
+      "release": "February 14, 2010",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wingless)",
+      "price": "N/A"
+    }
+  ],
+  "This sweet-smelling egg is covered by a ribbon.": [
+    {
+      "name": "Valentine's 2011<br/>Rosebud",
+      "col": 9,
+      "row": 14,
+      "release": "February 14, 2011",
+      "element": ["Air"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This sweet smelling egg is covered by a ribbon. ": [
+    {
+      "name": "Valentine's 2011<br/>Rosebud Dragon",
+      "col": 9,
+      "row": 18,
+      "release": "February 14, 2011",
+      "element": ["Air"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This scarlet egg has a faintly sweet aroma.": [
+    {
+      "name": "Valentine's 2012<br/>Heartseeker",
+      "col": 9,
+      "row": 13,
+      "release": "February 14, 2012",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is a deep pink.": [
+    {
+      "name": "Valentine's 2013<br/>Arsani",
+      "col": 4,
+      "row": 7,
+      "release": "February 14, 2013",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This radiant white egg has red and gold swirls on it.": [
+    {
+      "name": "Valentine's 2014<br/>Radiant Angel",
+      "col": 3,
+      "row": 13,
+      "release": "February 14, 2014",
+      "element": ["Magi"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg is so shiny it makes you want to take it.": [
+    {
+      "name": "Valentine's 2015<br/>Heartstealing",
+      "col": 16,
+      "row": 8,
+      "release": "February 14, 2015",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This lovely egg has rolled off to the side.": [
+    {
+      "name": "Valentine's 2016<br/>Mutamore",
+      "col": 12,
+      "row": 12,
+      "release": "February 14, 2016",
+      "element": ["Earth", "Water"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This deep purple egg shimmers like a pearl.": [
+    {
+      "name": "Valentine's 2017<br/>Soulstone",
+      "col": 2,
+      "row": 4,
+      "release": "February 14, 2017",
+      "element": ["Light"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This egg has a sweet, floral scent.": [
+    {
+      "name": "Valentine's 2018<br/>Floral-Crowned",
+      "col": 3,
+      "row": 6,
+      "release": "February 14, 2018",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Western)",
+      "price": "N/A"
+    }
+  ],
+  "This warm egg is surrounded by plants.": [
+    {
+      "name": "Valentine's 2019<br/>Sakuhana Wyvern",
+      "col": 10,
+      "row": 15,
+      "release": "February 14, 2019",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "N/A"
+    }
+  ],
+  "This regal egg feels oddly light.": [
+    {
+      "name": "Valentine's 2020<br/>Erador Lindwyrm",
+      "col": 5,
+      "row": 13,
+      "release": "February 14, 2020",
+      "element": ["Magi", "Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Lindwyrm)",
+      "price": "N/A"
+    }
+  ],
+  "Dim flames spark up from this egg whenever joy sparks up in you.": [
+    {
+      "name": "Valentine's 2021<br/>Amarignis",
+      "col": 2,
+      "row": 2,
+      "release": "February 14, 2021",
+      "element": ["Light", "Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This egg smells pleasantly floral, maybe fruity.": [
+    {
+      "name": "Valentine's 2022<br/>Vermeil",
+      "col": 8,
+      "row": 11,
+      "release": "February 14, 2022",
+      "element": ["Life"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "N/A"
+    }
+  ],
+  "Colorful swirls decorate the surface of this glossy egg.": [
+    {
+      "name": "Valentine's 2023<br/>Xocoatl",
+      "col": 18,
+      "row": 1,
+      "release": "February 14, 2023",
+      "element": ["Life", "Air"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Amphiptere)",
+      "price": "N/A"
+    }
+  ],
+  "Holding this warm egg rekindles your spirit.": [
+    {
+      "name": "Valentine's 2024<br/>Fenghuo Wyrm",
+      "col": 2,
+      "row": 17,
+      "release": "February 14, 2024",
+      "element": ["Life", "Fire"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "N/A"
+    }
+  ],
+  "This egg emits an enchanting glow.": [
+    {
+      "name": "Valentine's 2025<br/>Mousai",
+      "col": 6,
+      "row": 17,
+      "release": "February 14, 2025",
+      "element": ["Water"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "N/A"
+    }
+  ],
+  "The enthralling harmony echoing from this egg is uplifting.": [
+    {
+      "name": "Valentine's 2026<br/>Melopoeia",
+      "col": 17,
+      "row": 20,
+      "release": "February 14, 2026",
+      "element": ["Magi", "Water"],
+      "habitat": ["Unknown (Limited release)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "An aura of serenity surrounds this iridescent egg.": [
+    {
+      "name": "Venturis",
+      "col": 11,
+      "row": 1,
+      "release": "April 26, 2020",
+      "element": ["Time"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Eastern)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This smooth egg has dark markings.": [
+    {
+      "name": "Vespine Drake",
+      "col": 1,
+      "row": 14,
+      "release": "June 25, 2023",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Drake",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "It is difficult to discern this egg from its gloomy surroundings.": [
+    {
+      "name": "Vilvoor",
+      "col": 8,
+      "row": 2,
+      "release": "October 1, 2023",
+      "element": ["Dark"],
+      "habitat": ["Alpine", "Volcano"],
+      "morphology": "Two-headed dragon (Wyvern)",
+      "price": "200 - 300 shards"
+    }
+  ],
+  "This smooth green egg looks vaguely familiar.": [
+    {
+      "name": "Vremya Drake",
+      "col": 2,
+      "row": 14,
+      "release": "May 21, 2019",
+      "element": ["Time"],
+      "habitat": ["Forest"],
+      "morphology": "Drake",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is sitting in a shallow puddle.": [
+    {
+      "name": "Water",
+      "col": 11,
+      "row": 8,
+      "release": "May 31, 2007",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Leviathan)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg hums with a quiet power, as though something within is beginning to stir.": [
+    {
+      "name": "Warden of Realms",
+      "col": 4,
+      "row": 20,
+      "release": "May 21, 2026",
+      "element": ["Neutral"],
+      "habitat": ["Unknown (Must be Summoned)"],
+      "morphology": "Dragon (Eastern)",
+      "price": "N/A"
+    }
+  ],
+  "This egg seems to be floating on a puddle.": [
+    {
+      "name": "Water Walker",
+      "col": 12,
+      "row": 10,
+      "release": "August 25, 2009",
+      "element": ["Water"],
+      "habitat": ["Coast", "Forest", "Jungle"],
+      "morphology": "Dragon (Wingless)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg is slimy and blue.": [
+    {
+      "name": "Waterhorse",
+      "col": 14,
+      "row": 8,
+      "release": "August 25, 2009",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg shakes from time to time, as if it is eager to hatch.": [
+    {
+      "name": "Whiptail",
+      "col": 14,
+      "row": 10,
+      "release": "April 22, 2009",
+      "element": ["Neutral"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg has a very clean look; it’s completely devoid of dirt and scratches.": [
+    {
+      "name": "White",
+      "col": 5,
+      "row": 6,
+      "release": "May 21, 2006",
+      "element": ["Life", "Light"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
+    }
+  ],
+  "This egg seems lonely sitting by itself.": [
+    {
+      "name": "Windrider Wyvern",
+      "col": 15,
+      "row": 16,
+      "release": "April 28, 2024",
+      "element": ["Air", "Water"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyvern)",
+      "price": "100 shards"
+    }
+  ],
+  "This egg is surrounded by beautiful flowers.": [
+    {
+      "name": "Wisteria",
+      "col": 3,
+      "row": 9,
+      "release": "March 28, 2022",
+      "element": ["Life"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 200 shards"
+    }
+  ],
+  "Mana flows like a current through this glassy egg.": [
+    {
+      "name": "Staterae Xenowyrm",
+      "col": 13,
+      "row": 2,
+      "release": "June 27, 2020",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "1,400 - 6,900 shards"
+    }
+  ],
+  "Mana courses throughout this glassy egg.": [
+    {
+      "name": "Aquilo Xenowyrm",
+      "col": 12,
+      "row": 2,
+      "release": "June 27, 2020",
+      "element": ["Air"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    },
+    {
+      "name": "Aso Xenowyrm",
+      "col": 5,
+      "row": 20,
+      "release": "June 27, 2020",
+      "element": ["Ice"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    },
+    {
+      "name": "Astrapi Xenowyrm",
+      "col": 6,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Lightning"],
+      "habitat": ["Alpine"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Chrono Xenowyrm",
+      "col": 7,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Time"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Gaia Xenowyrm",
+      "col": 8,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Life"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Ke'maro Xenowyrm",
+      "col": 9,
+      "row": 20,
+      "release": "June 27, 2020",
+      "element": ["Death"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    },
+    {
+      "name": "Mageia Xenowyrm",
+      "col": 10,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Magi"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Obidar Xenowyrm",
+      "col": 11,
+      "row": 20,
+      "release": "June 27, 2020",
+      "element": ["Earth"],
+      "habitat": ["Forest"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    },
+    {
+      "name": "Pharos Xenowyrm",
+      "col": 12,
+      "row": 20,
+      "release": "June 27, 2020",
+      "element": ["Light"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    },
+    {
+      "name": "Pyro Xenowyrm",
+      "col": 13,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Fire"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Thalassa Xenowyrm",
+      "col": 15,
+      "row": 20,
+      "release": "June 27, 2015",
+      "element": ["Water"],
+      "habitat": ["Coast"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "400 - 1,200 shards"
+    },
+    {
+      "name": "Umbra Xenowyrm",
+      "col": 16,
+      "row": 20,
+      "release": "June 27, 2020",
+      "element": ["Dark"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wyrm)",
+      "price": "100 - 600 shards"
+    }
+  ],
+  "This dull egg feels cozily warm.": [
+    {
+      "name": "Xol",
+      "col": 7,
+      "row": 4,
+      "release": "April 26, 2020",
+      "element": ["Fire", "Water"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 - 300 shards"
+    }
+  ],
+  "This egg looks like it doesn’t belong; it is brightly colored with white spots. It’s much heavier than the other eggs.": [
+    {
+      "name": "Yellow Dino",
+      "col": 20,
+      "row": 9,
+      "release": "June 19, 2007",
+      "element": ["None"],
+      "habitat": ["Jungle"],
+      "morphology": "Non-dragon",
+      "price": "1,800 - 3,600 shards"
+    }
+  ],
+  "The air shimmers around this egg, as if from heat.": [
+    {
+      "name": "Yellow-Crowned",
+      "col": 2,
+      "row": 3,
+      "release": "September 8, 2013",
+      "element": ["Light"],
+      "habitat": ["Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "100 shards"
+    }
+  ],
+  "This partially scaled egg looks like it was placed with great care.": [
+    {
+      "name": "Zarafauri",
+      "col": 11,
+      "row": 16,
+      "release": "May 21, 2024",
+      "element": ["Earth", "Life"],
+      "habitat": ["Jungle"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 shards"
+    }
+  ],
+  "This shiny egg seems to radiate power.": [
+    {
+      "name": "Zyumorph",
+      "col": 15,
+      "row": 13,
+      "release": "May 21, 2017",
+      "element": ["Neutral"],
+      "habitat": ["All"],
+      "morphology": "Dragon (Western, see trivia)",
+      "price": "300 - 400 shards"
+    }
+  ]
+}

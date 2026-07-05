@@ -39,7 +39,8 @@
     {
       "resources": [
         "inject.css",
-        "sprite.png"
+        "sprite.png",
+        "data.json"
       ],
       "matches": [
         "https://dragcave.net/*"
