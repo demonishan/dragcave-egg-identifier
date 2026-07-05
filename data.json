@@ -1179,6 +1179,8 @@
     },
     {
       "name": "Floret Wyvern (Iris)",
+      "col": 18,
+      "row": 20,
       "release": "March 25, 2018",
       "element": ["Life"],
       "habitat": ["Alpine", "Forest"],

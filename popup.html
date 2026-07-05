@@ -9,7 +9,6 @@
   <body>
     <main class="container">
       <h1>DragCave Egg Identifier</h1>
-      <p id="message">Checking active tab...</p>
       <label class="field" for="eventSelector">
         <span>Event</span>
         <select id="eventSelector">
@@ -18,6 +17,28 @@
           <option value="easterget">Easter</option>
         </select>
       </label>
+      <h2>Toggle egg information display</h2>
+      <label class="infoDisplay" for="displayRelease">
+        <input type="checkbox" id="displayRelease" checked />
+        <span>Show release date?</span>
+      </label>
+      <label class="infoDisplay" for="displayElement">
+        <input type="checkbox" id="displayElement" checked />
+        <span>Show elemental affinity?</span>
+      </label>
+      <label class="infoDisplay" for="displayHabitat">
+        <input type="checkbox" id="displayHabitat" checked />
+        <span>Show habitat?</span>
+      </label>
+      <label class="infoDisplay" for="displayMorphology">
+        <input type="checkbox" id="displayMorphology" checked />
+        <span>Show morphology?</span>
+      </label>
+      <label class="infoDisplay" for="displayPrice">
+        <input type="checkbox" id="displayPrice" checked />
+        <span>Show market price?</span>
+      </label>
+      <p id="message">Checking active tab...</p>
     </main>
     <script src="logic.js"></script>
   </body>

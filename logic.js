@@ -17,6 +17,20 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
     chrome.storage.local.set({ [EVENT_STORAGE_KEY]: popupEventSelectorEl.value });
     popupMessageEl.textContent = 'Saved. Reload Dragcave tab to apply now.';
   });
+  const DISPLAY_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
+  chrome.storage.local.get(DISPLAY_KEYS, stored => {
+    for (const key of DISPLAY_KEYS) {
+      const el = document.getElementById(key);
+      if (el) el.checked = stored[key] !== false;
+    }
+  });
+  for (const key of DISPLAY_KEYS) {
+    const el = document.getElementById(key);
+    if (el) el.addEventListener('change', () => {
+      chrome.storage.local.set({ [key]: el.checked });
+      popupMessageEl.textContent = 'Saved. Reload Dragcave tab to apply now.';
+    });
+  }
   chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
     const activeTab = tabs[0];
     if (!activeTab || !activeTab.url || !activeTab.url.startsWith('https://dragcave.net/')) {
@@ -53,32 +67,26 @@ if (window.location.hostname === 'dragcave.net') {
     const response = await fetch(`${chrome.runtime.getURL(`data.json`)}?v=${chrome.runtime.getManifest().version}`);
     const json = await response.json();
     const lookup = {};
-    for (const [desc, entries] of Object.entries(json)) {
-      lookup[desc] = Array.isArray(entries) ? entries : [entries];
-    }
+    for (const [desc, entries] of Object.entries(json)) lookup[desc] = Array.isArray(entries) ? entries : [entries];
     return lookup;
   };
-  const renderEggCard = (target, dragText, dragons, dragonID) => {
+  const renderEggCard = (target, dragText, dragons, dragonID, prefs = {}) => {
     const list = dragons.length ? dragons : [{ name: `Dragon Not Found`, col: 1, row: 1 }];
-    const primary = list[0];
     const cards = list
       .map(d => {
         const val = v => (Array.isArray(v) ? v.join(`, `) : v);
         const meta = [
-          d.release && `<tr><td>Release date</td><td>${d.release}</td></tr>`,
-          d.element?.length && `<tr><td>Elemental affinity</td><td>${val(d.element)}</td></tr>`,
-          d.habitat?.length && `<tr><td>Habitat(s)</td><td>${val(d.habitat)}</td></tr>`,
-          d.morphology && `<tr><td>Morphology</td><td>${d.morphology}</td></tr>`,
-          d.price && `<tr><td>Market price</td><td>${d.price}</td></tr>`
+          prefs.release !== false && d.release && `<tr><td>Release date</td><td>${d.release}</td></tr>`,
+          prefs.element !== false && d.element?.length && `<tr><td>Elemental affinity</td><td>${val(d.element)}</td></tr>`,
+          prefs.habitat !== false && d.habitat?.length && `<tr><td>Habitat(s)</td><td>${val(d.habitat)}</td></tr>`,
+          prefs.morphology !== false && d.morphology && `<tr><td>Morphology</td><td>${d.morphology}</td></tr>`,
+          prefs.price !== false && d.price && `<tr><td>Market price</td><td>${d.price}</td></tr>`
         ].filter(Boolean);
-        const col = d.col ?? primary.col;
-        const row = d.row ?? primary.row;
         return `
-          <div class="egg-img" style="background-position: ${(col - 1) * -50}px ${(row - 1) * -50}px;"></div>
+          <div class="egg-img" style="background-position: ${(d.col - 1) * -50}px ${(d.row - 1) * -50}px;"></div>
           <div class="egg-name">${d.name}</div>
-          ${meta.length ? `<table class="egg-meta">${meta.join(``)}</table>
-          <div class="egg-id">Extension ID: c${primary.col}r${primary.row}</div>
-        ` : ``}
+          ${meta.length ? `<table class="egg-meta">${meta.join(``)}</table>` : ``}
+          <div class="egg-id">Extension ID: c${d.col}r${d.row}</div>
         `;
       })
       .join(``);
@@ -122,7 +130,17 @@ if (window.location.hostname === 'dragcave.net') {
   }
   // EGG IMAGE REPLACE
   const applyEggReplacements = async () => {
-    const dragLookup = await loadDragData();
+    const PREF_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
+    const [dragLookup, prefs] = await Promise.all([
+      loadDragData(),
+      new Promise(resolve => chrome.storage.local.get(PREF_KEYS, data => resolve({
+        release: data.displayRelease !== false,
+        element: data.displayElement !== false,
+        habitat: data.displayHabitat !== false,
+        morphology: data.displayMorphology !== false,
+        price: data.displayPrice !== false,
+      }))),
+    ]);
     document.querySelectorAll(`.eggs > div > span`).forEach(eggDescription => {
       const target = eggDescription.parentNode.querySelector(`a`);
       if (!target) return;
@@ -130,7 +148,7 @@ if (window.location.hostname === 'dragcave.net') {
       const dragText = eggDescription.innerHTML.trim();
       const dragons = dragLookup[dragText] || [];
       const dragonID = target.getAttribute(`href`).split(`/`)[4];
-      renderEggCard(target, dragText, dragons, dragonID);
+      renderEggCard(target, dragText, dragons, dragonID, prefs);
     });
   };
   applyEggReplacements();
@@ -151,4 +169,3 @@ if (window.location.hostname === 'dragcave.net') {
     mainMenu.innerHTML += `<a href="https://www.allureofnds.net/daycare" target="_blank">Daycare</a>`;
   }
 }
-// ICE LAST
