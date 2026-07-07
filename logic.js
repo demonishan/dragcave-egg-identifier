@@ -26,10 +26,11 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
   });
   for (const key of DISPLAY_KEYS) {
     const el = document.getElementById(key);
-    if (el) el.addEventListener('change', () => {
-      chrome.storage.local.set({ [key]: el.checked });
-      popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
-    });
+    if (el)
+      el.addEventListener('change', () => {
+        chrome.storage.local.set({ [key]: el.checked });
+        popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
+      });
   }
   chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
     const activeTab = tabs[0];
@@ -70,32 +71,6 @@ if (window.location.hostname === 'dragcave.net') {
     for (const [desc, entries] of Object.entries(json)) lookup[desc] = Array.isArray(entries) ? entries : [entries];
     return lookup;
   };
-  const renderEggCard = (target, dragText, dragons, dragonID, prefs = {}) => {
-    const list = dragons.length ? dragons : [{ name: `Dragon Not Found`, col: 1, row: 1 }];
-    const cards = list
-      .map(d => {
-        const val = v => (Array.isArray(v) ? v.join(`, `) : v);
-        const meta = [
-          prefs.release !== false && d.release && `<tr><td>Release date</td><td>${d.release}</td></tr>`,
-          prefs.element !== false && d.element?.length && `<tr><td>Elemental affinity</td><td>${val(d.element)}</td></tr>`,
-          prefs.habitat !== false && d.habitat?.length && `<tr><td>Habitat(s)</td><td>${val(d.habitat)}</td></tr>`,
-          prefs.morphology !== false && d.morphology && `<tr><td>Morphology</td><td>${d.morphology}</td></tr>`,
-          prefs.price !== false && d.price && `<tr><td>Market price</td><td>${d.price}</td></tr>`,
-          `<tr><td>ID</td><td>c${d.col}r${d.row}</td></tr>`
-        ].filter(Boolean);
-        return `
-          <div class="egg-img" style="background-position: ${(d.col - 1) * -50}px ${(d.row - 1) * -50}px;"></div>
-          <div class="egg-name">${d.name}</div>
-          ${meta.length ? `<table class="egg-meta">${meta.join(``)}</table>` : ``}
-        `;
-      })
-      .join(``);
-    target.innerHTML = `
-      ${cards}
-      <div class="egg-desc">${dragText}</div>
-      <div class="egg-id">DragCave ID: ${dragonID}</div>
-    `;
-  };
   // EVENT EGG CLICKER
   const runEventClicker = isHalloweenOrEaster => {
     if (isHalloweenOrEaster === 'none') return;
@@ -133,22 +108,48 @@ if (window.location.hostname === 'dragcave.net') {
     const PREF_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
     const [dragLookup, prefs] = await Promise.all([
       loadDragData(),
-      new Promise(resolve => chrome.storage.local.get(PREF_KEYS, data => resolve({
-        release: data.displayRelease !== false,
-        element: data.displayElement !== false,
-        habitat: data.displayHabitat !== false,
-        morphology: data.displayMorphology !== false,
-        price: data.displayPrice !== false,
-      }))),
+      new Promise(resolve =>
+        chrome.storage.local.get(PREF_KEYS, data =>
+          resolve({
+            release: data.displayRelease !== false,
+            element: data.displayElement !== false,
+            habitat: data.displayHabitat !== false,
+            morphology: data.displayMorphology !== false,
+            price: data.displayPrice !== false,
+          })
+        )
+      ),
     ]);
     document.querySelectorAll(`.eggs > div > span`).forEach(eggDescription => {
       const target = eggDescription.parentNode.querySelector(`a`);
       if (!target) return;
-      target.classList.add(`sprite`);
       const dragText = eggDescription.innerHTML.trim();
       const dragons = dragLookup[dragText] || [];
-      const dragonID = target.getAttribute(`href`).split(`/`).at(-1);
-      renderEggCard(target, dragText, dragons, dragonID, prefs);
+      const href = target.getAttribute(`href`) || ``;
+      const linkID = href.split(`/`).filter(Boolean).at(-1) || `Error`;
+      const list = dragons.length ? dragons : [{ name: `Dragon Not Found`, col: 1, row: 1 }];
+      target.classList.add(`sprite`);
+      const cards = list
+        .map(d => {
+          return `
+          <div class="egg-img" style="background-position: ${(d.col - 1) * -50}px ${(d.row - 1) * -50}px;"></div>
+          <div class="egg-name">${d.name}</div>
+          <table class="egg-meta">
+            ${prefs.release !== false && d.release ? `<tr><td>Release date</td><td>${d.release}</td></tr>` : ``}
+            ${prefs.element !== false && d.element?.length ? `<tr><td>Elemental affinity</td><td>${Array.isArray(d.element) ? d.element.join(`, `) : d.element}</td></tr>` : ``}
+            ${prefs.habitat !== false && d.habitat?.length ? `<tr><td>Habitat(s)</td><td>${Array.isArray(d.habitat) ? d.habitat.join(`, `) : d.habitat}</td></tr>` : ``}
+            ${prefs.morphology !== false && d.morphology ? `<tr><td>Morphology</td><td>${d.morphology}</td></tr>` : ``}
+            ${prefs.price !== false && d.price ? `<tr><td>Market price</td><td>${d.price}</td></tr>` : ``}
+            <tr><td>ID</td><td>c${d.col}r${d.row}</td></tr>
+          </table>
+        `;
+        })
+        .join(``);
+      target.innerHTML = `
+      ${cards}
+      <div class="egg-desc">${dragText}</div>
+      <div class="egg-id">URL: ${linkID}</div>
+    `;
     });
   };
   applyEggReplacements();

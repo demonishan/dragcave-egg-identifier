@@ -83,33 +83,3 @@
     }
   }
 }
-#customInput {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  padding: 5px;
-  background: rgba(0, 0, 0, 0.2);
-  label {
-    display: flex;
-    align-items: center;
-    margin: 0 10px 0 0;
-    span {
-      font-size: 12px;
-      margin-right: 5px;
-      line-height: 1;
-    }
-    select {
-      background: none;
-      border: 0;
-      outline: 0;
-      font-size: 12px;
-      color: #fff;
-      font-family: inherit;
-      line-height: 1;
-      padding: 0;
-      option {
-        color: #000;
-      }
-    }
-  }
-}
