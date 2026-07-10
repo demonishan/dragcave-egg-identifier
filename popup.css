@@ -7,50 +7,103 @@
 }
 body {
   margin: 0;
-  min-width: 280px;
-  background: #f6f7fb;
-  color: #1f2430;
+  padding: 0;
+  min-width: 250px;
+  background: #ecdcbd;
+  color: #44300b;
+  border: 2px solid #44300b;
 }
 .container {
-  padding: 16px;
+  padding: 16px 16px 0;
+}
+a {
+  color: inherit;
 }
 h1 {
   margin: 0 0 8px;
   font-size: 18px;
 }
 h2 {
-  margin: 0 0 4px;
+  margin: 10px 0 4px;
   font-size: 14px;
+}
+h3 {
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+h3 span {
+  display: block;
+  font-size: 12px;
 }
 p {
   margin: 0 0 12px;
   font-size: 14px;
 }
+p#message {
+  font-size: 14px;
+  margin: 10px 0;
+  font-style: italic;
+}
+label {
+  display: block;
+  margin: 0 0 4px;
+}
 .field {
   display: grid;
   gap: 6px;
-  margin: 0 0 12px;
 }
 .field span {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
 }
 .field select {
-  border: 1px solid #c8d0df;
-  border-radius: 8px;
+  border: 1px solid #44300b;
   padding: 8px 10px;
   font-size: 14px;
-  background: #ffffff;
-  color: #1f2430;
+  background: none;
+  color: #44300b;
 }
 .field select:disabled {
   background: #eef1f8;
   color: #7d8698;
 }
 .infoDisplay {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 2px;
-  margin: 0 0 4px;
+  margin: 4px 0 0;
+}
+.infoDisplay input[type='checkbox'] {
+  display: none;
+}
+.infoDisplay input[type='checkbox'] + label {
+  display: block;
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+.infoDisplay input[type='checkbox'] + label:last-child {
+  margin-bottom: 0;
+}
+.infoDisplay input[type='checkbox'] + label:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #44300b;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  opacity: 0.6;
+  transition: all 0.3s ease-out;
+}
+.infoDisplay input[type='checkbox']:checked + label:before {
+  width: 4px;
+  top: 0;
+  left: 4px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
 }

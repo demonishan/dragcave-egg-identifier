@@ -18,30 +18,37 @@
         </select>
       </label>
       <h2>Toggle egg information display</h2>
-      <label class="infoDisplay" for="displayRelease">
+      <div class="infoDisplay">
         <input type="checkbox" id="displayRelease" checked />
-        <span>Release date</span>
-      </label>
-      <label class="infoDisplay" for="displayElement">
+        <label for="displayRelease">Release date</label>
+      </div>
+      <div class="infoDisplay">
         <input type="checkbox" id="displayElement" checked />
-        <span>Elemental affinity</span>
-      </label>
-      <label class="infoDisplay" for="displayHabitat">
+        <label for="displayElement">Elemental affinity</label>
+      </div>
+      <div class="infoDisplay">
         <input type="checkbox" id="displayHabitat" checked />
-        <span>Habitat</span>
-      </label>
-      <label class="infoDisplay" for="displayMorphology">
+        <label for="displayHabitat">Habitat</label>
+      </div>
+      <div class="infoDisplay">
         <input type="checkbox" id="displayMorphology" checked />
-        <span>Morphology</span>
-      </label>
-      <label class="infoDisplay" for="displayPrice">
+        <label for="displayMorphology">Morphology</label>
+      </div>
+      <div class="infoDisplay">
         <input type="checkbox" id="displayPrice" checked />
-        <span>Market price</span>
-      </label>
-      <label class="infoDisplay" for="displayURL">
+        <label for="displayPrice">Market price</label>
+      </div>
+      <div class="infoDisplay">
         <input type="checkbox" id="displayURL" checked />
-        <span>URL</span>
-      </label>
+        <label for="displayURL">URL</label>
+      </div>
+      <h3>
+        Found an issue?
+        <span>
+          Email me:
+          <a href="mailto:666de666@gmail.com">666de666@gmail.com</a>
+        </span>
+      </h3>
       <p id="message">Checking active tab...</p>
     </main>
     <script src="logic.js"></script>

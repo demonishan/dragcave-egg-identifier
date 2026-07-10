@@ -3,7 +3,7 @@ const popupEventSelectorEl = document.getElementById('eventSelector');
 const EVENT_STORAGE_KEY = 'isHalloweenOrEaster';
 if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.local) {
   const setOutsideDomainState = () => {
-    popupMessageEl.textContent = 'Open https://dragcave.net/ to use this extension.';
+    popupMessageEl.textContent = 'Open DragCave.net to use this extension.';
     popupEventSelectorEl.disabled = true;
   };
   const setInsideDomainState = () => {
@@ -15,7 +15,7 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
   });
   popupEventSelectorEl.addEventListener('change', () => {
     chrome.storage.local.set({ [EVENT_STORAGE_KEY]: popupEventSelectorEl.value });
-    popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
+    popupMessageEl.textContent = 'Saved. Reload to apply.';
   });
   const DISPLAY_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice', 'displayURL'];
   chrome.storage.local.get(DISPLAY_KEYS, stored => {
@@ -29,7 +29,7 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
     if (el)
       el.addEventListener('change', () => {
         chrome.storage.local.set({ [key]: el.checked });
-        popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
+        popupMessageEl.textContent = 'Saved. Reload to apply.';
       });
   }
   chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
