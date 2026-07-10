@@ -17,7 +17,7 @@ if (popupMessageEl && popupEventSelectorEl && chrome?.tabs && chrome?.storage?.l
     chrome.storage.local.set({ [EVENT_STORAGE_KEY]: popupEventSelectorEl.value });
     popupMessageEl.textContent = 'Saved. Reload DragCave tab to apply now.';
   });
-  const DISPLAY_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
+  const DISPLAY_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice', 'displayURL'];
   chrome.storage.local.get(DISPLAY_KEYS, stored => {
     for (const key of DISPLAY_KEYS) {
       const el = document.getElementById(key);
@@ -105,7 +105,7 @@ if (window.location.hostname === 'dragcave.net') {
   }
   // EGG IMAGE REPLACE
   const applyEggReplacements = async () => {
-    const PREF_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice'];
+    const PREF_KEYS = ['displayRelease', 'displayElement', 'displayHabitat', 'displayMorphology', 'displayPrice', 'displayURL'];
     const [dragLookup, prefs] = await Promise.all([
       loadDragData(),
       new Promise(resolve =>
@@ -116,6 +116,7 @@ if (window.location.hostname === 'dragcave.net') {
             habitat: data.displayHabitat !== false,
             morphology: data.displayMorphology !== false,
             price: data.displayPrice !== false,
+            url: data.displayURL !== false,
           })
         )
       ),
@@ -140,7 +141,8 @@ if (window.location.hostname === 'dragcave.net') {
             ${prefs.habitat !== false && d.habitat?.length ? `<tr><td>Habitat(s)</td><td>${Array.isArray(d.habitat) ? d.habitat.join(`, `) : d.habitat}</td></tr>` : ``}
             ${prefs.morphology !== false && d.morphology ? `<tr><td>Morphology</td><td>${d.morphology}</td></tr>` : ``}
             ${prefs.price !== false && d.price ? `<tr><td>Market price</td><td>${d.price}</td></tr>` : ``}
-            <tr><td>ID</td><td>c${d.col}r${d.row}</td></tr>
+            <tr><td>Extension ID</td><td>c${d.col}r${d.row}</td></tr>
+            ${prefs.url !== false && linkID ? `<tr><td>URL</td><td>${linkID}</td></tr>` : ``}
           </table>
         `;
         })
@@ -148,7 +150,6 @@ if (window.location.hostname === 'dragcave.net') {
       target.innerHTML = `
       ${cards}
       <div class="egg-desc">${dragText}</div>
-      <div class="egg-id">URL: ${linkID}</div>
     `;
     });
   };

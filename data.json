@@ -681,7 +681,7 @@
       "name": "Cantormaris",
       "col": 18,
       "row": 2,
-      "release": "January 24, 2021, May 21, 2021 (Motus and Tutela)",
+      "release": "January 24, 2021",
       "element": ["Water", "Magi"],
       "habitat": ["Coast", "Volcano", "Jungle"],
       "morphology": "Dragon (Wyvern)",
@@ -2482,6 +2482,18 @@
       "habitat": ["Volcano"],
       "morphology": "Dragon (Wingless)",
       "price": "2,900 - 4,900 shards"
+    }
+  ],
+  "This shiny gray egg smells of burnt metal.": [
+    {
+      "name": "Magnesium Amphiptere",
+      "col": 17,
+      "row": 13,
+      "release": "April 25, 2021",
+      "element": ["Fire"],
+      "habitat": ["Desert", "Volcano"],
+      "morphology": "Two-headed dragon (Amphiptere)",
+      "price": "100 shards"
     }
   ],
   "This shiny grey egg smells of burnt metal.": [
