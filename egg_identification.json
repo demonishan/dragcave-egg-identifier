@@ -303,7 +303,12 @@
     {
       "name": "Avarice",
       "col": 1,
-      "row": 19
+      "row": 19,
+      "release": "June 28, 2026",
+      "element": ["Neutral"],
+      "habitat": ["Alpine", "Desert"],
+      "morphology": "Dragon (Western)",
+      "price": "200 shards"
     }
   ],
   "This iridescent egg radiates mysterious energy.": [
@@ -3534,7 +3539,12 @@
     {
       "name": "Slag-Tail Behemoth",
       "col": 2,
-      "row": 19
+      "row": 19,
+      "release": "June 28, 2026",
+      "element": ["Fire", "Earth"],
+      "habitat": ["Volcano"],
+      "morphology": "Dragon (Wingless)",
+      "price": "100 shards"
     }
   ],
   "This egg glows with the light of the moon.": [
@@ -4641,6 +4651,20 @@
       "habitat": ["All"],
       "morphology": "Dragon (Western, see trivia)",
       "price": "300 - 400 shards"
+    }
+  ],
+  "Delicate fractures glimmer faintly across the shell of this egg.": [
+    {
+      "name": "Kintsugi",
+      "col": 19,
+      "row": 20
+    }
+  ],
+  "This egg has a remarkably hard shell.": [
+    {
+      "name": "Ovidrakes",
+      "col": 20,
+      "row": 20
     }
   ]
 }

@@ -65,7 +65,7 @@ if (window.location.hostname === 'dragcave.net') {
     locationList: [`5-alpine`, `1-coast`, `2-desert`, `3-forest`, `4-jungle`, `6-volcano`],
   };
   const loadDragData = async () => {
-    const response = await fetch(`${chrome.runtime.getURL(`data.json`)}?v=${chrome.runtime.getManifest().version}`);
+    const response = await fetch(`${chrome.runtime.getURL(`egg_identification.json`)}?v=${chrome.runtime.getManifest().version}`);
     const json = await response.json();
     const lookup = {};
     for (const [desc, entries] of Object.entries(json)) lookup[desc] = Array.isArray(entries) ? entries : [entries];
